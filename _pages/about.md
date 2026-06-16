@@ -26,13 +26,15 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## 🔥 News
 
+- *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE Transactions on Consumer Electronics (TCE)**.
+- *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A.
 - *2026.01*: &nbsp;💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling.
 - *2025.10*: &nbsp;🚀 Joined **Qingcheng Zhiji Technology** as AI Infra intern, working on Chitu inference engine and industry collaborations (BAAI, Tsinghua, Zhipu).
 - *2025.10*: &nbsp;🔬 Completed research internship at **Shenzhen University of Advanced Technology**, extending SimAI communication layer for LLM training; joint submission to **SIGCOMM**.
 - *2025.07*: &nbsp;📄 1 Paper (2nd author) on edge-LDP subgraph counting submitted to **CCS** ([arxiv](https://arxiv.org/abs/2507.06508)).
 - *2025.06*: &nbsp;💼 Finished algorithm internship at **China Mobile Terminal Company**, working on RAG retrieval with SimCSE and memory-augmented reranking.
-- *2024.08*: &nbsp;🎉 1 Paper accepted by **IEEE Transactions on Cloud Computing (TCE)**, IF 10.9.
-- *2024.08*: &nbsp;🎉 1 Paper (4th author) accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A.
+- *2025.05*: &nbsp;🎉 1 Paper accepted by **IEEE ICASSP 2025**, CCF-B.
+- *2024.12*: &nbsp;🎉 1 Paper accepted by **IEEE IPCCC 2024**, CCF-C.
 - *2020.09*: &nbsp;🎓 Started Ph.D. studies at **Beijing Jiaotong University**.
 
 ## 📖 Educations
@@ -42,43 +44,66 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## ✨ Selected Publications
 
-### (*: Equal Contribution; Under Review papers marked)
+### ($^{\dagger}$: Corresponding Author; *: Equal Contribution)
 
-- **FedSA-CE: Selection-Aware Clustering for Federated Learning in Heterogeneous Networks**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_IEEE Transactions on Cloud Computing (TCE)_** (<font color="red">IF: 10.9, JCR Q1</font>)
+- **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
+**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
+**_IEEE Transactions on Consumer Electronics_**\\
+[[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
-- **RailS: Load Balancing for Communication in Distributed Mixture-of-Experts Training**\\
-et al., **<u>Ying Zhou</u>** (4th author)\\
-**_IEEE/ACM Transactions on Networking (ToN)_** (<font color="red">CCF-A</font>)
+- **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
+Zhu Mingqiang, **<u>Ying Zhou</u>**, Chu Jianxiang, Chen Ziyang, Ai Huilin, Li Jundi, Han Jinze\\
+**_China Communications_** (JCR Q2, IF: 3.1)\\
+[[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
-- **Correlation Analysis for Exploring Large-Scale Latency Variability in WANs**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_IPCCC_** (<font color="red">CCF-C</font>)
+- **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**\\
+Heng Xu, Zhiwei Yu, Chengze Du, **<u>Ying Zhou</u>**, Letian Li, Haojie Wang, Weiqiang Cheng, Jialong Li\\
+**_IEEE/ACM Transactions on Networking (ToN)_** (<font color="red">CCF-A</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/11450478)] [[doi](https://doi.org/10.1109/ton.2026.3676382)]
 
-- **AdapFed: Adaptive Devices Training Strategy for Heterogeneous Federated Learning**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_ICASSP_** (<font color="red">CCF-B</font>)
+- **Gsched: Coordinated Flow-Control and Priority Scheduling for DNN Training in AI Cluster**\\
+Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
+**_IEEE Transactions on Network Science and Engineering (TNSE)_** (<font color="red">CCF-B</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
+
+- **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
+Huilin Ai, **<u>Ying Zhou</u>**, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
+**_ICMR 2026_**\\
+[[pdf](https://doi.org/10.1145/3805622.3810662)] [[doi](https://doi.org/10.1145/3805622.3810662)]
+
+- **LDCS-Net: Local Dual-Context Attention Network for 3D Semantic Segmentation**\\
+Shuang Guo, **<u>Ying Zhou</u>**, Meina Song, Huilin Ai, Jialong Li, Ziyang Chen\\
+**_ICMR 2026_**\\
+[[pdf](https://doi.org/10.1145/3805622.3810874)] [[doi](https://doi.org/10.1145/3805622.3810874)]
+
+- **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**\\
+Ruitao Li, **<u>Ying Zhou</u>**, Ziyang Chen, Mingzhen Wu, Yuming Zhang, Shaoying Wang, Fei Song\\
+**_IEEE GLOBECOM 2025_** (<font color="red">CCF-C</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/11432238)] [[doi](https://doi.org/10.1109/globecom59602.2025.11432238)]
 
 - **DVS-Based Vibration Spectrum Analysis for Optical-Fiber Path Matching**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_ICC_** (<font color="red">CCF-C</font>)
+Mingzhen Wu, **<u>Ying Zhou</u>**, Ziyang Chen, Mingqiang Zhu, Yue Liu\\
+**_IEEE ICC Workshops 2025_** (<font color="red">CCF-C</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/11162201)] [[doi](https://doi.org/10.1109/iccworkshops67674.2025.11162201)]
 
-- **DLSAG: Dynamic Steiner Aggregation for Large-Scale Network Path Optimization**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_GLOBECOM_** (<font color="red">CCF-C</font>)
+- **AdapFed: Adaptive Devices Training Strategy for Heterogeneous Federated Learning**\\
+Ziyang Chen, **<u>Ying Zhou</u>**, Fei Song\\
+**_IEEE ICASSP 2025_** (<font color="red">CCF-B</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/10890205)] [[doi](https://doi.org/10.1109/icassp49660.2025.10890205)]
 
-- **Elastic Balancing of Communication Efficiency and Performance in Federated Learning with Clustering**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_Electronics_** (JCR Q2, IF: 2.6)
+- **Elastic Balancing of Communication Efficiency and Performance in Federated Learning with Staged Clustering**\\
+**<u>Ying Zhou</u>**, Fang Cui, Junlin Che, Mao Ni, Zhiyuan Zhang, Jundi Li\\
+**_Electronics_** (JCR Q2, IF: 2.6)\\
+[[pdf](https://www.mdpi.com/2079-9292/14/4/745)] [[doi](https://doi.org/10.3390/electronics14040745)]
 
-- **I-AOMDV: Routing for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
-**<u>Ying Zhou</u>**, et al.\\
-**_China Communications_** (JCR Q2, IF: 3.1)
+- **Correlation Analysis for Exploring Large-Scale Latency Variability in WANs**\\
+**<u>Ying Zhou</u>**, Mingzhen Wu, Fei Song\\
+**_IEEE IPCCC 2024_** (<font color="red">CCF-C</font>)\\
+[[pdf](https://ieeexplore.ieee.org/document/10850326)] [[doi](https://doi.org/10.1109/ipccc59868.2024.10850326)]
 
 - **PIFCA: Optimizing Federated Clustering with Gradient Space Search in Non-IID Data**\\
 **<u>Ying Zhou</u>**, et al.\\
-**_INFOCOM_** (<font color="orange">Under Review, CCF-A</font>)
+**_IEEE INFOCOM 2026_** (<font color="orange">Under Review, CCF-A</font>)
 
 - **Efficient Federated Clustering with Gradient Search Optimization for Medical Edge Networks**\\
 **<u>Ying Zhou</u>**, et al.\\
@@ -86,7 +111,7 @@ et al., **<u>Ying Zhou</u>** (4th author)\\
 
 - **Subgraph Counting under Edge Differential Privacy Based on Noisy Matrix**\\
 et al., **<u>Ying Zhou</u>** (2nd author)\\
-**_CCS_** (<font color="orange">Under Review, CCF-A</font>)\\
+**_ACM CCS 2025_** (<font color="orange">Under Review, CCF-A</font>)\\
 [[arxiv](https://arxiv.org/abs/2507.06508)]
 
 ## 💼 Projects
