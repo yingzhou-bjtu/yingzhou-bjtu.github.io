@@ -49,6 +49,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 ## 🔥 News
 
 - *2026.06*: &nbsp;🎊 I received my **Ph.D.** from Beijing Jiaotong University and will join **Moore Threads** as an AI Infrastructure Engineer.
+- *2026.05*: &nbsp;🎉 2 Papers (co-first author) accepted by **ACM ICMR 2026**, CCF-B: **LDCS-Net** and **FMD-AL** (to appear).
 - *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE Transactions on Consumer Electronics (TCE)**.
 - *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A.
 - *2026.01*: &nbsp;💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling.
@@ -104,12 +105,12 @@ Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
 Huilin Ai*, **<u>Ying Zhou</u>***, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
-**_ICMR 2026_**\\
+**_Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR) 2026_** (<font color="red">CCF-B</font>, <font color="green">Accepted, to appear</font>)\\
 [[pdf](https://doi.org/10.1145/3805622.3810662)] [[doi](https://doi.org/10.1145/3805622.3810662)]
 
 - **LDCS-Net: Local Dual-Context Attention Network for 3D Semantic Segmentation**\\
 Shuang Guo*, **<u>Ying Zhou</u>***, Meina Song, Huilin Ai, Jialong Li, Ziyang Chen\\
-**_ICMR 2026_**\\
+**_Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR) 2026_** (<font color="red">CCF-B</font>, <font color="green">Accepted, to appear</font>)\\
 [[pdf](https://doi.org/10.1145/3805622.3810874)] [[doi](https://doi.org/10.1145/3805622.3810874)]
 
 - **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**\\
