@@ -89,7 +89,8 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 [[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
 - **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
-Mingqiang Zhu*, **<u>Ying Zhou</u>***, Jianxiang Chu, Ziyang Chen, Huilin Ai, Jundi Li, Jinze Han\\
+Mingqiang Zhu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Jianxiang Chu, Ziyang Chen,\\
+Huilin Ai, Jundi Li, Jinze Han\\
 **_China Communications_** (<font color="red">中科院 3区</font>, IF: 3.1)\\
 [[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
