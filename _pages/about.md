@@ -38,7 +38,7 @@ ul {
 
 <span class='anchor' id='about-me'></span>
 
-I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT) and Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU). I will join **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my Bachelor's degree in Software Engineering from **China University of Petroleum (Beijing) at Karamay** (<font face=STKaiti>中国石油大学（北京）克拉玛依校区</font>) in 2020, ranking **1/60** in GPA.
+I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT), Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU), and Professor Xie Renjie (<font face=STKaiti>谢仁杰</font>, GUET). I will join **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my Bachelor's degree in Software Engineering from **China University of Petroleum (Beijing) at Karamay** (<font face=STKaiti>中国石油大学（北京）克拉玛依校区</font>) in 2020, ranking **1/60** in GPA.
 
 My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
 
@@ -188,4 +188,10 @@ C/C++, Python, PyTorch, vLLM, SGLang, Kubernetes, Docker, distributed networking
 
 - **Ph.D. Supervisor**: [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, Shenzhen University of Advanced Technology) — [Homepage](https://franklee94.github.io/) · [IEEE Xplore](https://ieeexplore.ieee.org/author/37086018709)
 - **Ph.D. Co-supervisor**: [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, Beijing Jiaotong University) — [Homepage](https://faculty.bjtu.edu.cn/8366/) · [IEEE Xplore](https://ieeexplore.ieee.org/author/37586161500)
+- **Ph.D. Co-supervisor**: Xie Renjie (<font face=STKaiti>谢仁杰</font>, Guilin University of Electronic Technology)
+- **Long-term Collaborators**:
+  - [Heng Xu](https://scholar.google.com/citations?user=zav19AkAAAAJ) (<font face=STKaiti>徐珩</font>, Shenzhen University of Advanced Technology)
+  - Sun Jialong (<font face=STKaiti>孙嘉隆</font>, Shenzhen University of Advanced Technology)
+  - Wu Zailong (<font face=STKaiti>吴再龙</font>, [Qingcheng Zhiji Technology](https://www.qc-ai.cn/))
+  - He Wanqing (<font face=STKaiti>何万青</font>, [Tsingmicro](https://www.tsingmicro.com/))
 - **My IEEE Publications**: [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843)
