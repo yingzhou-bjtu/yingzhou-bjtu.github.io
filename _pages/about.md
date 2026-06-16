@@ -81,27 +81,27 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## ✨ Selected Publications
 
-### (*: Co-first Author / 共一作; $^{\dagger}$: Corresponding Author / 通讯作者; 期刊标注中科院分区与 IF)
+### (*: Co-first Author / 共一作; $^{\dagger}$: Corresponding Author / 通讯作者)
 
 - **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
-**_IEEE Transactions on Consumer Electronics_** (<font color="red">中科院 2区</font>, IF: 10.9)\\
+**_IEEE Transactions on Consumer Electronics_** (<font color="red">Emerging Tier 2</font>, IF: 10.9)\\
 [[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
 - **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
 Mingqiang Zhu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Jianxiang Chu, Ziyang Chen,\\
 Huilin Ai, Jundi Li, Jinze Han\\
-**_China Communications_** (<font color="red">中科院 3区</font>, IF: 3.1)\\
+**_China Communications_** (<font color="red">Emerging Tier 3</font>, IF: 3.1)\\
 [[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
 - **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**\\
 Heng Xu, Zhiwei Yu, Chengze Du, **<u>Ying Zhou</u>**, Letian Li, Haojie Wang, Weiqiang Cheng, Jialong Li\\
-**_IEEE/ACM Transactions on Networking (ToN)_** (<font color="red">CCF-A</font>, 中科院 3区, IF: 3.6)\\
+**_IEEE/ACM Transactions on Networking (ToN)_** (<font color="red">CCF-A</font>, Emerging Tier 3, IF: 3.6)\\
 [[pdf](https://ieeexplore.ieee.org/document/11450478)] [[doi](https://doi.org/10.1109/ton.2026.3676382)]
 
 - **Gsched: Coordinated Flow-Control and Priority Scheduling for DNN Training in AI Cluster**\\
 Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
-**_IEEE Transactions on Network Science and Engineering (TNSE)_** (<font color="red">CCF-B</font>, 中科院 2区, IF: 7.9)\\
+**_IEEE Transactions on Network Science and Engineering (TNSE)_** (<font color="red">CCF-B</font>, Emerging Tier 2, IF: 7.9)\\
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
@@ -142,7 +142,7 @@ Ziyang Chen*, **<u>Ying Zhou</u>***, Fei Song\\
 
 - **Efficient Federated Clustering with Gradient Search Optimization for Medical Edge Networks**\\
 **<u>Ying Zhou</u>**, et al.\\
-**_IEEE Transactions on Green Communications and Networking (TGCN)_** (<font color="orange">Under Review</font>, 中科院 2区, IF: 6.7)
+**_IEEE Transactions on Green Communications and Networking (TGCN)_** (<font color="orange">Under Review</font>, Emerging Tier 2, IF: 6.7)
 
 - **Subgraph Counting under Edge Local Differential Privacy Based on Noisy Adjacency Matrix**\\
 Jintao Guo*, **<u>Ying Zhou</u>***, Chao Li, Guixun Luo\\
