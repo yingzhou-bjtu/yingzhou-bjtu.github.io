@@ -139,20 +139,59 @@ Jintao Guo*, **<u>Ying Zhou</u>***, Chao Li, Guixun Luo\\
 
 ## 💼 Internships {#internships}
 
-- **AI Infra Intern**, Qingcheng Zhiji Technology (<font face=STKaiti>清程极智</font>, *2025.10 - 2026.01*)\\
-Tsinghua-affiliated AI infrastructure startup building inference engines and turnkey deployment products for large-model serving.
+<div class="edu-entry">
+  <img src="images/intern/xinyan.svg" class="edu-logo-wide" alt="Xinyan Robotics">
+  <div class="edu-text">
+    <em>2026.03 - 2026.06</em>, <strong>Robotics Infra Intern</strong><br>
+    <strong>Xinyan Robotics</strong> (<font face=STKaiti>心言机器人</font>)<br>
+    <span class="edu-campus">Embodied-intelligence startup (Xinyan Group) building the family companion robot Bubbo; worked on on-device robotics infrastructure — edge AI deployment, speech/speaker pipelines, and production readiness for mass shipment.</span>
+  </div>
+</div>
 
-- **Research Intern**, Shenzhen University of Advanced Technology (<font face=STKaiti>深圳理工大学</font>, *2025.07 - 2025.10*)\\
-A new-type research university in Shenzhen focused on AI, advanced computing, and interdisciplinary engineering research.
+<div class="edu-entry">
+  <img src="images/intern/qc-ai.png" class="edu-logo" alt="Qingcheng Zhiji">
+  <div class="edu-text">
+    <em>2025.10 - 2026.01</em>, <strong>AI Infra Intern</strong><br>
+    <strong>Qingcheng Zhiji Technology</strong> (<font face=STKaiti>清程极智</font>)<br>
+    <span class="edu-campus">Tsinghua-affiliated AI infrastructure startup building inference engines and turnkey deployment products for large-model serving.</span>
+  </div>
+</div>
 
-- **Algorithm Intern**, China Mobile Terminal Company (<font face=STKaiti>中国移动终端公司</font>, *2024.08 - 2025.06*)\\
-The terminal R&D subsidiary of China Mobile, developing intelligent algorithms and software for consumer devices.
+<div class="edu-entry">
+  <img src="images/intern/suat.png" class="edu-logo-wide" alt="Shenzhen University of Advanced Technology">
+  <div class="edu-text">
+    <em>2025.07 - 2025.10</em>, <strong>Research Intern</strong><br>
+    <strong>Shenzhen University of Advanced Technology</strong> (<font face=STKaiti>深圳理工大学</font>)<br>
+    <span class="edu-campus">A new-type research university in Shenzhen focused on AI, advanced computing, and interdisciplinary engineering research.</span>
+  </div>
+</div>
 
-- **Development Intern**, Aerospace Remote Sensing Equipment Institute (<font face=STKaiti>航天遥感设备所</font>, *2022.10 - 2024.11*)\\
-A research institute specializing in aerospace remote sensing systems and network communication technologies.
+<div class="edu-entry">
+  <img src="images/intern/china-mobile.svg" class="edu-logo-wide" alt="China Mobile">
+  <div class="edu-text">
+    <em>2024.08 - 2025.06</em>, <strong>Algorithm Intern</strong><br>
+    <strong>China Mobile Terminal Company</strong> (<font face=STKaiti>中国移动终端公司</font>)<br>
+    <span class="edu-campus">The terminal R&D subsidiary of China Mobile, developing intelligent algorithms and software for consumer devices.</span>
+  </div>
+</div>
 
-- **Development Intern**, State Grid Information & Telecommunication Group (<font face=STKaiti>国网信息通信产业集团</font>, *2020.09 - 2021.07*)\\
-A State Grid subsidiary providing IoT, information communication, and smart grid infrastructure solutions.
+<div class="edu-entry">
+  <img src="images/intern/aerospace.svg" class="edu-logo-wide" alt="Aerospace Remote Sensing Equipment Institute">
+  <div class="edu-text">
+    <em>2022.10 - 2024.11</em>, <strong>Development Intern</strong><br>
+    <strong>Aerospace Remote Sensing Equipment Institute</strong> (<font face=STKaiti>航天遥感设备所</font>)<br>
+    <span class="edu-campus">A research institute specializing in aerospace remote sensing systems and network communication technologies.</span>
+  </div>
+</div>
+
+<div class="edu-entry">
+  <img src="images/intern/state-grid.svg" class="edu-logo-wide" alt="State Grid Information and Telecommunication Group">
+  <div class="edu-text">
+    <em>2020.09 - 2021.07</em>, <strong>Development Intern</strong><br>
+    <strong>State Grid Information &amp; Telecommunication Group</strong> (<font face=STKaiti>国网信息通信产业集团</font>)<br>
+    <span class="edu-campus">A State Grid subsidiary providing IoT, information communication, and smart grid infrastructure solutions.</span>
+  </div>
+</div>
 
 ## 🚀 Projects {#projects}
 
@@ -166,7 +205,7 @@ Extended the SimAI framework for LLM distributed training by remapping collectiv
 
 - **Docker Network Simulation**\\
 A Docker-based network emulation platform supporting OSPF/LISP protocols, Mininet testbeds, and MQTT-based real-time network visualization.\\
-[[code](https://github.com/Network-Optimization/DockerNetworkSimulation)]
+[[code](https://github.com/yingzhou-bjtu/DockerNetworkSimulation)]
 
 - **Smart IoT & IPv6 Identity Management System**\\
 A Python-based IoT data transmission and IPv6 identity management system with MQTT messaging, deployed for State Grid smart infrastructure.\\

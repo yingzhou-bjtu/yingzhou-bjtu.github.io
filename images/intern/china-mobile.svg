@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" role="img" aria-label="China Mobile">
+  <rect width="120" height="48" rx="6" fill="#fff"/>
+  <g transform="translate(8,8)">
+    <path d="M0 16 C8 4, 24 4, 32 16 C24 28, 8 28, 0 16 Z" fill="#00A651"/>
+    <path d="M8 16 C12 10, 20 10, 24 16 C20 22, 12 22, 8 16 Z" fill="#fff"/>
+    <path d="M12 16 C14 13, 18 13, 20 16 C18 19, 14 19, 12 16 Z" fill="#00A651"/>
+  </g>
+  <text x="46" y="21" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="11" font-weight="700" fill="#00A651">中国移动</text>
+  <text x="46" y="35" font-family="Arial, sans-serif" font-size="9" fill="#666">China Mobile</text>
+</svg>

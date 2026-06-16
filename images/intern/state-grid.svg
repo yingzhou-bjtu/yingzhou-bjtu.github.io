@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" role="img" aria-label="State Grid">
+  <rect width="120" height="48" rx="6" fill="#fff"/>
+  <circle cx="24" cy="24" r="18" fill="#006F3C"/>
+  <circle cx="24" cy="24" r="12" fill="#F5C518"/>
+  <path d="M24 14 L24 34 M14 24 L34 24 M17 17 L31 31 M31 17 L17 31" stroke="#006F3C" stroke-width="2"/>
+  <text x="48" y="21" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="10" font-weight="700" fill="#006F3C">国网信通</text>
+  <text x="48" y="35" font-family="Arial, sans-serif" font-size="8" fill="#666">State Grid IT</text>
+</svg>

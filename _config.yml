@@ -1,7 +1,7 @@
 # Site Settings
 title                    : "Ying Zhou"
 description              : "AI Infrastructure Engineer at Moore Threads"
-repository               : "Network-Optimization/Network-Optimization.github.io"
+repository               : "yingzhou-bjtu/yingzhou-bjtu.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -31,7 +31,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Network-Optimization"
+  github           : "yingzhou-bjtu"
   google_plus      :
   keybase          :
   instagram        :
