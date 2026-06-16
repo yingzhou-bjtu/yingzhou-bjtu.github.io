@@ -16,16 +16,17 @@ ul {
 
 <span class='anchor' id='about-me'></span>
 
-I'm Ying Zhou (<font face=STKaiti>周瀛</font>), a Ph.D. candidate in Information and Communication Engineering at Beijing Jiaotong University, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT) and Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU). I received my Bachelor's degree in Software Engineering from China University of Petroleum (Beijing) in 2020, ranking **1/60** in GPA.
+I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT) and Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU). I will join **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my Bachelor's degree in Software Engineering from China University of Petroleum (Beijing) in 2020, ranking **1/60** in GPA.
 
-My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization. I have interned at Qingcheng Zhiji Technology, Shenzhen University of Advanced Technology, China Mobile Terminal Company, and other industry/research labs.
+My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
 
-I am actively seeking internship and full-time opportunities as an **AI Infra Engineer** or **High-Performance Networking Engineer** in Beijing, Shanghai, or Shenzhen. Feel free to reach out via email!
+Feel free to reach out via email!
 
 A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843).
 
 ## 🔥 News
 
+- *2026.06*: &nbsp;🎊 I received my **Ph.D.** from Beijing Jiaotong University and will join **Moore Threads** as an AI Infrastructure Engineer.
 - *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE Transactions on Consumer Electronics (TCE)**.
 - *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A.
 - *2026.01*: &nbsp;💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling.
@@ -39,7 +40,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## 📖 Educations
 
-- *2020.09 - 2026.07 (expected)*, Ph.D. Candidate, School of Electronic and Information Engineering, Beijing Jiaotong University
+- *2020.09 - 2026.06*, Ph.D. in Information and Communication Engineering, School of Electronic and Information Engineering, Beijing Jiaotong University
 - *2016.09 - 2020.07*, B.E. in Software Engineering, China University of Petroleum (Beijing) — **GPA Rank 1/60**
 
 ## ✨ Selected Publications
