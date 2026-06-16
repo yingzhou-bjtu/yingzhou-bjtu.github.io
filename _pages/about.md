@@ -104,12 +104,14 @@ Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
-Huilin Ai*, **<u>Ying Zhou</u>***, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
+Huilin Ai<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Zhonghua Peng, Ziyang Chen,\\
+Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
 **_Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR) 2026_** (<font color="red">CCF-B</font>, <font color="green">Accepted, to appear</font>)\\
 [[pdf](https://doi.org/10.1145/3805622.3810662)] [[doi](https://doi.org/10.1145/3805622.3810662)]
 
 - **LDCS-Net: Local Dual-Context Attention Network for 3D Semantic Segmentation**\\
-Shuang Guo*, **<u>Ying Zhou</u>***, Meina Song, Huilin Ai, Jialong Li, Ziyang Chen\\
+Shuang Guo<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Meina Song, Huilin Ai,\\
+Jialong Li, Ziyang Chen\\
 **_Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR) 2026_** (<font color="red">CCF-B</font>, <font color="green">Accepted, to appear</font>)\\
 [[pdf](https://doi.org/10.1145/3805622.3810874)] [[doi](https://doi.org/10.1145/3805622.3810874)]
 
