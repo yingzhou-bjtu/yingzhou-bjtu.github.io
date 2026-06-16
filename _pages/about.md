@@ -44,7 +44,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## ✨ Selected Publications
 
-### ($^{\dagger}$: Corresponding Author; *: Equal Contribution)
+### (*: Co-first Author; $^{\dagger}$: Corresponding Author)
 
 - **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
@@ -52,7 +52,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 [[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
 - **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
-Zhu Mingqiang, **<u>Ying Zhou</u>**, Chu Jianxiang, Chen Ziyang, Ai Huilin, Li Jundi, Han Jinze\\
+Mingqiang Zhu*, **<u>Ying Zhou*</u>**, Jianxiang Chu, Ziyang Chen, Huilin Ai, Jundi Li, Jinze Han\\
 **_China Communications_** (JCR Q2, IF: 3.1)\\
 [[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
@@ -67,27 +67,27 @@ Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
-Huilin Ai, **<u>Ying Zhou</u>**, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
+Huilin Ai*, **<u>Ying Zhou*</u>**, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
 **_ICMR 2026_**\\
 [[pdf](https://doi.org/10.1145/3805622.3810662)] [[doi](https://doi.org/10.1145/3805622.3810662)]
 
 - **LDCS-Net: Local Dual-Context Attention Network for 3D Semantic Segmentation**\\
-Shuang Guo, **<u>Ying Zhou</u>**, Meina Song, Huilin Ai, Jialong Li, Ziyang Chen\\
+Shuang Guo*, **<u>Ying Zhou*</u>**, Meina Song, Huilin Ai, Jialong Li, Ziyang Chen\\
 **_ICMR 2026_**\\
 [[pdf](https://doi.org/10.1145/3805622.3810874)] [[doi](https://doi.org/10.1145/3805622.3810874)]
 
 - **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**\\
-Ruitao Li, **<u>Ying Zhou</u>**, Ziyang Chen, Mingzhen Wu, Yuming Zhang, Shaoying Wang, Fei Song\\
+Ruitao Li*, **<u>Ying Zhou*</u>**, Ziyang Chen, Mingzhen Wu, Yuming Zhang, Shaoying Wang, Fei Song\\
 **_IEEE GLOBECOM 2025_** (<font color="red">CCF-C</font>)\\
 [[pdf](https://ieeexplore.ieee.org/document/11432238)] [[doi](https://doi.org/10.1109/globecom59602.2025.11432238)]
 
 - **DVS-Based Vibration Spectrum Analysis for Optical-Fiber Path Matching**\\
-Mingzhen Wu, **<u>Ying Zhou</u>**, Ziyang Chen, Mingqiang Zhu, Yue Liu\\
+Mingzhen Wu*, **<u>Ying Zhou*</u>**, Ziyang Chen, Mingqiang Zhu, Yue Liu\\
 **_IEEE ICC Workshops 2025_** (<font color="red">CCF-C</font>)\\
 [[pdf](https://ieeexplore.ieee.org/document/11162201)] [[doi](https://doi.org/10.1109/iccworkshops67674.2025.11162201)]
 
 - **AdapFed: Adaptive Devices Training Strategy for Heterogeneous Federated Learning**\\
-Ziyang Chen, **<u>Ying Zhou</u>**, Fei Song\\
+Ziyang Chen*, **<u>Ying Zhou*</u>**, Fei Song\\
 **_IEEE ICASSP 2025_** (<font color="red">CCF-B</font>)\\
 [[pdf](https://ieeexplore.ieee.org/document/10890205)] [[doi](https://doi.org/10.1109/icassp49660.2025.10890205)]
 
@@ -109,8 +109,8 @@ Ziyang Chen, **<u>Ying Zhou</u>**, Fei Song\\
 **<u>Ying Zhou</u>**, et al.\\
 **_IEEE Transactions on Green Communications and Networking (TGCN)_** (<font color="orange">Under Review, IF: 6.7</font>)
 
-- **Subgraph Counting under Edge Differential Privacy Based on Noisy Matrix**\\
-et al., **<u>Ying Zhou</u>** (2nd author)\\
+- **Subgraph Counting under Edge Local Differential Privacy Based on Noisy Adjacency Matrix**\\
+Jintao Guo*, **<u>Ying Zhou*</u>**, Chao Li, Guixun Luo\\
 **_ACM CCS 2025_** (<font color="orange">Under Review, CCF-A</font>)\\
 [[arxiv](https://arxiv.org/abs/2507.06508)]
 
