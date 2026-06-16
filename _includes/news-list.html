@@ -1,0 +1,4 @@
+{% assign sorted_news = site.data.news | sort: "sort" | reverse %}
+{% for item in sorted_news limit: 10 %}
+- *{{ item.date }}*: &nbsp;{{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip }}
+{% endfor %}

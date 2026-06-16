@@ -48,18 +48,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## 🔥 News
 
-- *2026.06*: &nbsp;🎊 I received my **Ph.D.** from Beijing Jiaotong University and will join **Moore Threads** as an AI Infrastructure Engineer.
-- *2026.05*: &nbsp;🎉 2 Papers (co-first author) accepted by **ACM ICMR 2026**, CCF-B: **LDCS-Net** and **FMD-AL**.
-- *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE Transactions on Consumer Electronics (TCE)**.
-- *2026.02*: &nbsp;🎉 1 Paper accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A.
-- *2026.01*: &nbsp;💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling.
-- *2025.10*: &nbsp;🚀 Joined **Qingcheng Zhiji Technology** as AI Infra intern, working on Chitu inference engine and industry collaborations (BAAI, Tsinghua, Zhipu).
-- *2025.10*: &nbsp;🔬 Completed research internship at **Shenzhen University of Advanced Technology**, extending SimAI communication layer for LLM training; joint submission to **SIGCOMM**.
-- *2025.07*: &nbsp;📄 1 Paper (2nd author) on edge-LDP subgraph counting submitted to **CCS** ([arxiv](https://arxiv.org/abs/2507.06508)).
-- *2025.06*: &nbsp;💼 Finished algorithm internship at **China Mobile Terminal Company**, working on RAG retrieval with SimCSE and memory-augmented reranking.
-- *2025.05*: &nbsp;🎉 1 Paper accepted by **IEEE ICASSP 2025**, CCF-B.
-- *2024.12*: &nbsp;🎉 1 Paper accepted by **IEEE IPCCC 2024**, CCF-C.
-- *2020.09*: &nbsp;🎓 Started Ph.D. studies at **Beijing Jiaotong University**.
+{% include news-list.html %}
 
 ## 📖 Educations
 

@@ -1,0 +1,63 @@
+- sort: 20260601
+  date: "2026.06"
+  content: "🎊 I received my **Ph.D.** from Beijing Jiaotong University and will join **Moore Threads** as an AI Infrastructure Engineer."
+
+- sort: 20260503
+  date: "2026.05"
+  content: "🎉 2 papers (co-first author) accepted by **ACM ICMR 2026**, CCF-B: **LDCS-Net** and **FMD-AL**."
+
+- sort: 20260502
+  date: "2026.05"
+  content: "🎉 1 paper accepted by **IEEE TNSE**, CCF-B: **Gsched**."
+
+- sort: 20260501
+  date: "2026.05"
+  content: "🎉 1 paper (1st author) accepted by **IEEE Transactions on Consumer Electronics (TCE)**."
+
+- sort: 20260302
+  date: "2026.03"
+  content: "🎉 1 paper accepted by **IEEE/ACM Transactions on Networking (ToN)**, CCF-A: **RailS**."
+
+- sort: 20260301
+  date: "2026.03"
+  content: "🎉 1 paper (co-first author) accepted by **China Communications**: **I-AOMDV**."
+
+- sort: 20260101
+  date: "2026.01"
+  content: "💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling."
+
+- sort: 20251201
+  date: "2025.12"
+  content: "🎉 1 paper (co-first author) accepted by **IEEE GLOBECOM 2025**, CCF-C: **DLSAG**."
+
+- sort: 20251002
+  date: "2025.10"
+  content: "🚀 Joined **Qingcheng Zhiji Technology** as AI Infra intern, working on Chitu inference engine and industry collaborations (BAAI, Tsinghua, Zhipu)."
+
+- sort: 20251001
+  date: "2025.10"
+  content: "🔬 Completed research internship at **Shenzhen University of Advanced Technology**, extending SimAI communication layer for LLM training; joint submission to **SIGCOMM**."
+
+- sort: 20250701
+  date: "2025.07"
+  content: "📄 1 paper (co-first author) on edge-LDP subgraph counting submitted to **CCS** ([arxiv](https://arxiv.org/abs/2507.06508))."
+
+- sort: 20250602
+  date: "2025.06"
+  content: "🎉 1 paper (co-first author) accepted by **IEEE ICC Workshops 2025**, CCF-C: **DVS-Based**."
+
+- sort: 20250601
+  date: "2025.06"
+  content: "💼 Finished algorithm internship at **China Mobile Terminal Company**, working on RAG retrieval with SimCSE and memory-augmented reranking."
+
+- sort: 20250501
+  date: "2025.05"
+  content: "🎉 1 paper (co-first author) accepted by **IEEE ICASSP 2025**, CCF-B: **AdapFed**."
+
+- sort: 20241201
+  date: "2024.12"
+  content: "🎉 1 paper (1st author) accepted by **IEEE IPCCC 2024**, CCF-C: **Correlation Analysis**."
+
+- sort: 20200901
+  date: "2020.09"
+  content: "🎓 Started Ph.D. studies at **Beijing Jiaotong University**."
