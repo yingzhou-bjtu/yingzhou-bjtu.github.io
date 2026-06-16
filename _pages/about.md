@@ -22,6 +22,8 @@ My research interests span **distributed networks**, **data center networks**, *
 
 I am actively seeking internship and full-time opportunities as an **AI Infra Engineer** or **High-Performance Networking Engineer** in Beijing, Shanghai, or Shenzhen. Feel free to reach out via email!
 
+A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843).
+
 ## 🔥 News
 
 - *2026.01*: &nbsp;💼 Finished AI Infra internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling.
