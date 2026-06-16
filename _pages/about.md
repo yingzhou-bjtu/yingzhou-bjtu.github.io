@@ -50,7 +50,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## ✨ Selected Publications {#selected-publications}
 
-### (*: Co-first Author / 共一作; $^{\dagger}$: Corresponding Author / 通讯作者; ‡: Under Review / 在投)
+### (*: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; ‡: Under Review / 在投)
 
 <div class="pub-list" markdown="1">
 

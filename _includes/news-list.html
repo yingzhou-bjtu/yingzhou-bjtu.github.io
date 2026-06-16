@@ -1,7 +1,7 @@
 {% assign sorted_news = site.data.news | sort: "sort" | reverse %}
 <div class="news-feed">
 {% for item in sorted_news limit: 10 %}
-  <article class="news-item reveal-item">
+  <article class="news-item">
     <time class="news-item__date" datetime="{{ item.date }}">{{ item.date }}</time>
     <div class="news-item__body">{{ item.content | markdownify }}</div>
   </article>
