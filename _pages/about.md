@@ -16,7 +16,7 @@ ul {
 
 <span class='anchor' id='about-me'></span>
 
-I'm Ying Zhou (<font face=STKaiti>周瀛</font>), a Ph.D. candidate in Information and Communication Engineering at Beijing Jiaotong University. I received my Bachelor's degree in Software Engineering from China University of Petroleum (Beijing) in 2020, ranking **1/60** in GPA.
+I'm Ying Zhou (<font face=STKaiti>周瀛</font>), a Ph.D. candidate in Information and Communication Engineering at Beijing Jiaotong University, advised by Professor [Jialong Li](https://ieeexplore.ieee.org/author/37086018709) (<font face=STKaiti>李嘉龙</font>). I received my Bachelor's degree in Software Engineering from China University of Petroleum (Beijing) in 2020, ranking **1/60** in GPA.
 
 My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization. I have interned at Qingcheng Zhiji Technology, Shenzhen University of Advanced Technology, China Mobile Terminal Company, and other industry/research labs.
 
@@ -123,3 +123,8 @@ Built Python-based IoT data transmission and IPv6 identity management system wit
 - **Tools**: Data analysis, Office suite
 - **Languages**: English (CET-6)
 - **Interests**: Badminton
+
+## 🔗 Links
+
+- **Ph.D. Supervisor**: [Jialong Li](https://ieeexplore.ieee.org/author/37086018709) (<font face=STKaiti>李嘉龙</font>, BJTU) — [IEEE Xplore](https://ieeexplore.ieee.org/author/37086018709)
+- **My IEEE Publications**: [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843)
