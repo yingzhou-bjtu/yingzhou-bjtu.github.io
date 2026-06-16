@@ -138,8 +138,7 @@ Built Python-based IoT data transmission and IPv6 identity management system wit
 
 - **National First Prize (Top 0.3%)**, China Undergraduate Mathematical Contest in Modeling (CUMCM), *2019*
 - **National Second Prize**, Huawei Cup Graduate Mathematical Contest in Modeling, *2024*
-- **National Third Prize**, Huawei Cup Graduate Mathematical Contest in Modeling — with 1 granted patent, 2 pending invention patents, 2 IETF drafts, and ¥900K project commercialization
-- **University Badminton Second Prize**, *—*
+- **National Third Prize**, Huawei Cup Graduate Mathematical Contest in Modeling — with 1 granted patent, 2 pending invention patents, 2 IETF drafts, and ¥900K project commercialization, *2024*
 
 ## 🛠️ Skills
 
@@ -147,7 +146,6 @@ Built Python-based IoT data transmission and IPv6 identity management system wit
 - **Domains**: Distributed systems, data center networking, federated learning, AI inference infrastructure (vLLM, SGLang, K8s, Docker)
 - **Tools**: Data analysis, Office suite
 - **Languages**: English (CET-6)
-- **Interests**: Badminton
 
 ## 🔗 Links
 
