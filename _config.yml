@@ -1,6 +1,6 @@
 # Site Settings
 title                    : "Ying Zhou"
-description              : "AI Infrastructure Engineer, Moore Threads"
+description              : "AI Infrastructure Engineer at Moore Threads"
 repository               : "Network-Optimization/Network-Optimization.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -16,9 +16,9 @@ baidu_site_verification  :
 author:
   name             : "Ying Zhou"
   avatar           : "images/avatar.png"
-  bio              : "Moore Threads"
+  bio              : "AI Infrastructure Engineer<br>Moore Threads<br>Ph.D., Beijing Jiaotong University<br>B.E., China University of Petroleum (Beijing)"
   location         : "Beijing, China"
-  employer         : "AI Infrastructure Engineer @ Moore Threads"
+  employer         :
   pubmed           :
   googlescholar    :
   ieee_xplore      : "https://ieeexplore.ieee.org/author/37087009843"
