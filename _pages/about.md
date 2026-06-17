@@ -17,7 +17,7 @@ redirect_from:
   <p class="page-hero__tagline">Distributed Networks · AI Infrastructure · Federated Learning</p>
 </div>
 
-I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT), Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU), and Professor [Xie Renjie](https://ieeexplore.ieee.org/author/37086882593) (<font face=STKaiti>谢仁杰</font>, GUET). I join **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my Bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
+I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT), Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU), and Professor [Xie Renjie](https://ieeexplore.ieee.org/author/37086882593) (<font face=STKaiti>谢仁杰</font>, GUET). I joined **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
 
 My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
 
@@ -29,7 +29,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 {% include news-list.html %}
 
-## 📖 Educations {#educations}
+## 📖 Education {#educations}
 
 <div class="edu-entry">
   <img src="images/edu/bjtu.svg" class="edu-logo" alt="Beijing Jiaotong University">
@@ -43,7 +43,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
   <img src="images/edu/cupb.png" class="edu-logo-wide" alt="China University of Petroleum (Beijing)">
   <div class="edu-text">
     <em>2016.09 - 2020.07</em>, B.E. in Software Engineering<br>
-    <strong>China University of Petroleum (Beijing)</strong> (<font face=STKaiti>中国石油大学（北京）</font>) — <strong>GPA Rank 1/60</strong><br>
+    <strong>China University of Petroleum (Beijing)</strong> (<font face=STKaiti>中国石油大学（北京）</font>) — <strong>GPA rank 1/60</strong><br>
     <span class="edu-campus">Karamay Campus (<font face=STKaiti>克拉玛依校区</font>, 2016.09–2019.07) · Beijing Campus (<font face=STKaiti>北京校本部</font>, 2019.09–2020.07)</span>
   </div>
 </div>
@@ -144,7 +144,7 @@ Jintao Guo*, **<u>Ying Zhou</u>***, Chao Li, Guixun Luo\\
   <div class="edu-text">
     <em>2026.03 - 2026.06</em>, <strong>Robotics Infra Intern</strong><br>
     <strong>Xinyan Robotics</strong> (<font face=STKaiti>心言机器人</font>)<br>
-    <span class="edu-campus">Embodied-intelligence startup (Xinyan Group) building the family companion robot Bubbo; worked on on-device robotics infrastructure — edge AI deployment, speech/speaker pipelines, and production readiness for mass shipment.</span>
+    <span class="edu-campus">Embodied-intelligence startup (Xinyan Group) behind the family companion robot Bubbo; worked on on-device robotics infrastructure—edge AI deployment, speech/speaker pipelines, and production readiness for mass shipment.</span>
   </div>
 </div>
 
@@ -162,7 +162,7 @@ Jintao Guo*, **<u>Ying Zhou</u>***, Chao Li, Guixun Luo\\
   <div class="edu-text">
     <em>2025.07 - 2025.10</em>, <strong>Research Intern</strong><br>
     <strong>Shenzhen University of Advanced Technology</strong> (<font face=STKaiti>深圳理工大学</font>)<br>
-    <span class="edu-campus">A new-type research university in Shenzhen focused on AI, advanced computing, and interdisciplinary engineering research.</span>
+    <span class="edu-campus">A new research university in Shenzhen focused on AI, advanced computing, and interdisciplinary engineering research.</span>
   </div>
 </div>
 
@@ -189,7 +189,7 @@ Jintao Guo*, **<u>Ying Zhou</u>***, Chao Li, Guixun Luo\\
   <div class="edu-text">
     <em>2020.09 - 2021.07</em>, <strong>Development Intern</strong><br>
     <strong>State Grid Information &amp; Telecommunication Group</strong> (<font face=STKaiti>国网信息通信产业集团</font>)<br>
-    <span class="edu-campus">A State Grid subsidiary providing IoT, information communication, and smart grid infrastructure solutions.</span>
+    <span class="edu-campus">A State Grid subsidiary providing IoT, information and communication, and smart grid infrastructure solutions.</span>
   </div>
 </div>
 
@@ -216,7 +216,7 @@ A Python-based IoT data transmission and IPv6 identity management system with MQ
 - **National First Prize (Top 0.3%)**, China Undergraduate Mathematical Contest in Modeling (CUMCM), *2019*
 - **National Second Prize**, Huawei Cup Graduate Mathematical Contest in Modeling, *2024*
 - **National Third Prize**, Huawei Cup Graduate Mathematical Contest in Modeling, *2024*
-- **1 granted patent**, 2 pending invention patents, 2 IETF drafts, and ¥900K project commercialization from the modeling project, *2024*
+- **One granted patent**, 2 pending invention patents, 2 IETF drafts, and ¥900K project commercialization from the modeling project, *2024*
 
 ## 🛠️ Skills {#skills}
 
