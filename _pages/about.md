@@ -228,8 +228,8 @@ C/C++, Python, PyTorch, vLLM, SGLang, Kubernetes, Docker, distributed networking
 - **Ph.D. Co-supervisor**: [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, Beijing Jiaotong University) — [Homepage](https://faculty.bjtu.edu.cn/8366/) · [IEEE Xplore](https://ieeexplore.ieee.org/author/37586161500)
 - **Ph.D. Co-supervisor**: [Renjie Xie](https://ieeexplore.ieee.org/author/37086882593) (<font face=STKaiti>谢仁杰</font>, Guilin University of Electronic Technology) — [IEEE Xplore](https://ieeexplore.ieee.org/author/37086882593) · [Google Scholar](https://scholar.google.co.uk/citations?user=-1CEey0AAAAJ&hl=th)
 - **Long-term Collaborators**:
-  - [Heng Xu](https://ieeexplore.ieee.org/author/270741000144665) (<font face=STKaiti>徐珩</font>, Shenzhen University of Advanced Technology) — [IEEE Xplore](https://ieeexplore.ieee.org/author/270741000144665)
-  - [Jialong Sun](https://ieeexplore.ieee.org/author/559977918259426) (<font face=STKaiti>孙嘉隆</font>, Shenzhen University of Advanced Technology) — [IEEE Xplore](https://ieeexplore.ieee.org/author/559977918259426)
+  - [Heng Xu](https://scholar.google.com/citations?user=zav19AkAAAAJ) (<font face=STKaiti>徐珩</font>, Shenzhen University of Advanced Technology) — [IEEE Xplore](https://ieeexplore.ieee.org/author/270741000144665)
+  - [Jialong Sun](https://openreview.net/profile?id=~Jialong_Sun2) (<font face=STKaiti>孙嘉隆</font>, Shenzhen University of Advanced Technology) — [IEEE Xplore](https://ieeexplore.ieee.org/author/37088035076)
   - Zailong Wu (<font face=STKaiti>吴再龙</font>, [Qingcheng Zhiji Technology](https://www.qc-ai.cn/))
   - Wanqing He (<font face=STKaiti>何万青</font>, [Tsingmicro](https://www.tsingmicro.com/))
 - **My IEEE Publications**: [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843)
