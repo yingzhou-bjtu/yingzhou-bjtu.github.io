@@ -1,75 +1,113 @@
 - sort: 20260819
   date: "2026.08"
-  content: "🎉 **Publication**: 1 first-author paper, published online in **Journal of Network and Computer Applications**: **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 first-author paper, published online in **Journal of Network and Computer Applications**: **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**."
 
 - sort: 20260825
   date: "2026.08"
-  content: "📚 **Publication**: 1 co-authored special-invitation review, published in **光通信研究**: **下一代智算中心光网络综述：架构、技术与挑战**."
+  icon: "📚"
+  category: "Publication"
+  content: "1 co-authored special-invitation review, published in **光通信研究**: **下一代智算中心光网络综述：架构、技术与挑战**."
 
 - sort: 20260612
   date: "2026.06"
-  content: "🎉 **Publication**: 1 paper, accepted by **IEEE Transactions on Network and Service Management (TNSM)** (CCF-C): **Distributed Flow Control for Efficient DNN Training Scheduling**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 paper, accepted by **IEEE Transactions on Network and Service Management (TNSM)** (CCF-C): **Distributed Flow Control for Efficient DNN Training Scheduling**."
 
 - sort: 20260601
   date: "2026.06"
-  content: "🎊 **Career**: Received my **Ph.D.** from Beijing Jiaotong University and joined **Moore Threads** as an AI Infrastructure Engineer."
+  icon: "🎊"
+  category: "Career"
+  content: "Received my **Ph.D.** from Beijing Jiaotong University and joined **Moore Threads** as an AI Infrastructure Engineer."
 
 - sort: 20260503
   date: "2026.05"
-  content: "🎉 **Publication**: 2 co-first-author papers, accepted by **ACM ICMR 2026** (CCF-B): **LDCS-Net** and **FMD-AL**."
+  icon: "🎉"
+  category: "Publication"
+  content: "2 co-first-author papers, accepted by **ACM ICMR 2026** (CCF-B): **LDCS-Net** and **FMD-AL**."
 
 - sort: 20260502
   date: "2026.05"
-  content: "🎉 **Publication**: 1 paper, accepted by **IEEE TNSE** (CCF-B): **Gsched**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 paper, accepted by **IEEE TNSE** (CCF-B): **Gsched**."
 
 - sort: 20260501
   date: "2026.05"
-  content: "🎉 **Publication**: 1 first-author paper, accepted by **IEEE Transactions on Consumer Electronics (TCE)**: **FedSA-CE**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 first-author paper, accepted by **IEEE Transactions on Consumer Electronics (TCE)**: **FedSA-CE**."
 
 - sort: 20260302
   date: "2026.03"
-  content: "🎉 **Publication**: 1 paper, accepted by **IEEE/ACM Transactions on Networking (ToN)** (CCF-A): **RailS**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 paper, accepted by **IEEE/ACM Transactions on Networking (ToN)** (CCF-A): **RailS**."
 
 - sort: 20260301
   date: "2026.03"
-  content: "🎉 **Publication**: 1 co-first-author paper, accepted by **China Communications**: **I-AOMDV**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 co-first-author paper, accepted by **China Communications**: **I-AOMDV**."
 
 - sort: 20260101
   date: "2026.01"
-  content: "💼 **Career**: Finished an AI infrastructure internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling."
+  icon: "💼"
+  category: "Career"
+  content: "Finished an AI infrastructure internship at **Qingcheng Zhiji Technology**, deploying vLLM/SGLang inference engines and building turnkey API products with K8s elastic scaling."
 
 - sort: 20251201
   date: "2025.12"
-  content: "🎉 **Publication**: 1 co-first-author paper, accepted by **IEEE GLOBECOM 2025** (CCF-C): **DLSAG**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 co-first-author paper, accepted by **IEEE GLOBECOM 2025** (CCF-C): **DLSAG**."
 
 - sort: 20251002
   date: "2025.10"
-  content: "🚀 **Career**: Joined **Qingcheng Zhiji Technology** as an AI infrastructure intern, working on the Chitu inference engine and industry collaborations (BAAI, Tsinghua, Zhipu)."
+  icon: "🚀"
+  category: "Career"
+  content: "Joined **Qingcheng Zhiji Technology** as an AI infrastructure intern, working on the Chitu inference engine and industry collaborations (BAAI, Tsinghua, Zhipu)."
 
 - sort: 20251001
   date: "2025.10"
-  content: "🔬 **Career**: Completed a research internship at **Shenzhen University of Advanced Technology**, extending the SimAI communication layer for LLM training and making a joint submission to **SIGCOMM**."
+  icon: "🔬"
+  category: "Career"
+  content: "Completed a research internship at **Shenzhen University of Advanced Technology**, extending the SimAI communication layer for LLM training and making a joint submission to **SIGCOMM**."
 
 - sort: 20250701
   date: "2025.07"
-  content: "📄 **Submission**: 1 co-first-author paper on edge-LDP subgraph counting submitted to **ACM CCS 2025** ([arXiv](https://arxiv.org/abs/2507.06508))."
+  icon: "📄"
+  category: "Submission"
+  content: "1 co-first-author paper on edge-LDP subgraph counting submitted to **ACM CCS 2025** ([arXiv](https://arxiv.org/abs/2507.06508))."
 
 - sort: 20250602
   date: "2025.06"
-  content: "🎉 **Publication**: 1 co-first-author paper, accepted by **IEEE ICC Workshops 2025** (CCF-C): **DVS-Based**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 co-first-author paper, accepted by **IEEE ICC Workshops 2025** (CCF-C): **DVS-Based**."
 
 - sort: 20250601
   date: "2025.06"
-  content: "💼 **Career**: Finished an algorithm internship at **China Mobile Terminal Company**, working on RAG retrieval with SimCSE and memory-augmented reranking."
+  icon: "💼"
+  category: "Career"
+  content: "Finished an algorithm internship at **China Mobile Terminal Company**, working on RAG retrieval with SimCSE and memory-augmented reranking."
 
 - sort: 20250501
   date: "2025.05"
-  content: "🎉 **Publication**: 1 co-first-author paper, accepted by **IEEE ICASSP 2025** (CCF-B): **AdapFed**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 co-first-author paper, accepted by **IEEE ICASSP 2025** (CCF-B): **AdapFed**."
 
 - sort: 20241201
   date: "2024.12"
-  content: "🎉 **Publication**: 1 first-author paper, accepted by **IEEE IPCCC 2024** (CCF-C): **Correlation Analysis**."
+  icon: "🎉"
+  category: "Publication"
+  content: "1 first-author paper, accepted by **IEEE IPCCC 2024** (CCF-C): **Correlation Analysis**."
 
 - sort: 20200901
   date: "2020.09"
-  content: "🎓 **Education**: Started Ph.D. studies at **Beijing Jiaotong University**."
+  icon: "🎓"
+  category: "Education"
+  content: "Started Ph.D. studies at **Beijing Jiaotong University**."

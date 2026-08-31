@@ -3,7 +3,7 @@
 {% for item in sorted_news limit: 10 %}
   <article class="news-item">
     <time class="news-item__date" datetime="{{ item.date }}">{{ item.date }}</time>
-    <div class="news-item__body">{{ item.content | markdownify }}</div>
+    <div class="news-item__body"><span class="news-item__icon" aria-hidden="true">{{ item.icon }}</span> <strong>{{ item.category }}:</strong> {{ item.content | markdownify }}</div>
   </article>
 {% endfor %}
 </div>

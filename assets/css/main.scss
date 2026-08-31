@@ -269,7 +269,13 @@ body {
 }
 
 .news-item__body p {
+  display: inline;
   margin: 0;
+}
+
+.news-item__icon {
+  display: inline-block;
+  margin-right: 0.2rem;
 }
 
 /* --- Publication cards --- */
