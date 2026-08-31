@@ -67,37 +67,37 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 - **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**\\
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Zhiwei Yu, Heng Xu, Chengze Du, Jialong Li\\
-**_Journal of Network and Computer Applications_** <span class="pub-meta">(CCF-C, JCR Q1, 中科院 2 区, IF: 7.7)</span> <span class="pub-details">Vol. 255, Art. 104562, 2026</span>\\
+**_Journal of Network and Computer Applications_** <span class="pub-meta">(JCR Q1, CCF-C)</span> <span class="pub-details">Vol. 255, Art. 104562, 2026</span>\\
 [[doi](https://doi.org/10.1016/j.jnca.2026.104562)]
 
 - **下一代智算中心光网络综述：架构、技术与挑战（特邀）**\\
 杨帆，王丙雷，**<u>周瀛</u>**，彭中华，刘博，李嘉龙<sup>†</sup>\\
-**_光通信研究_** <span class="pub-details">2026(04): 53--66</span>\\
+**_光通信研究_** <span class="pub-meta">(中文核心)</span> <span class="pub-details">2026(04): 53--66</span>\\
 [[doi](https://doi.org/10.13756/j.gtxyj.2026.260125)]
 
 - **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
-**_IEEE Transactions on Consumer Electronics_** <span class="pub-meta">(Emerging Tier 1, IF: 10.9)</span>\\
+**_IEEE Transactions on Consumer Electronics_** <span class="pub-meta">(JCR Q1, CCF-B)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
 - **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
 Mingqiang Zhu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Jianxiang Chu, Ziyang Chen, Huilin Ai, Jundi Li, Jinze Han\\
-**_China Communications_** <span class="pub-meta">(Emerging Tier 3, IF: 3.1)</span>\\
+**_China Communications_** <span class="pub-meta">(JCR Q3, CCF-C)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
 - **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**\\
 Heng Xu, Zhiwei Yu, Chengze Du, **<u>Ying Zhou</u>**, Letian Li, Haojie Wang, Weiqiang Cheng, Jialong Li\\
-**_IEEE/ACM Transactions on Networking (ToN)_** <span class="pub-meta">(CCF-A, Emerging Tier 3, IF: 3.6)</span>\\
+**_IEEE/ACM Transactions on Networking (ToN)_** <span class="pub-meta">(JCR Q3, CCF-A)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11450478)] [[doi](https://doi.org/10.1109/ton.2026.3676382)]
 
 - **Gsched: Coordinated Flow-Control and Priority Scheduling for DNN Training in AI Cluster**\\
 Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
-**_IEEE Transactions on Network Science and Engineering (TNSE)_** <span class="pub-meta">(CCF-B, Emerging Tier 2, IF: 7.9)</span>\\
+**_IEEE Transactions on Network Science and Engineering (TNSE)_** <span class="pub-meta">(JCR Q2, CCF-B)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
 - **Distributed Flow Control for Efficient DNN Training Scheduling**\\
 Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
-**_IEEE Transactions on Network and Service Management (TNSM)_** <span class="pub-meta">(CCF-C, Emerging Tier 2, IF: 5.4)</span>\\
+**_IEEE Transactions on Network and Service Management (TNSM)_** <span class="pub-meta">(JCR Q2, CCF-C)</span>\\
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
 Huilin Ai<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
