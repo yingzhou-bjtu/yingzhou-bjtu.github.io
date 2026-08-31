@@ -65,6 +65,16 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 <div class="pub-list" markdown="1">
 
+- **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**\\
+**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Zhiwei Yu, Heng Xu, Chengze Du, Jialong Li\\
+**_Journal of Network and Computer Applications_** (CCF-C, JCR Q1, 中科院 2 区, IF: 7.7), 255, 104562 (2026)\\
+[[doi](https://doi.org/10.1016/j.jnca.2026.104562)]
+
+- **下一代智算中心光网络综述：架构、技术与挑战（特邀）**\\
+杨帆，王丙雷，**<u>周瀛</u>**，彭中华，刘博，李嘉龙<sup>†</sup>\\
+**_光通信研究_**, 2026(04): 53--66\\
+[[doi](https://doi.org/10.13756/j.gtxyj.2026.260125)]
+
 - **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
 **_IEEE Transactions on Consumer Electronics_** (<font color="red">Emerging Tier 1</font>, IF: 10.9)\\
