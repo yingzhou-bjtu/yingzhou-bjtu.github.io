@@ -95,6 +95,10 @@ Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong
 **_IEEE Transactions on Network Science and Engineering (TNSE)_** <span class="pub-meta">(JCR Q1, CCF-B)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
+- **MoSE: Mode-Switching Expander for Mixed LLM Training and Inference**\\
+Fan Yang, **<u>Ying Zhou</u>**, Binglei Wang, Zhenjie Zhou, Jialong Li\\
+**_Asia Communications and Photonics Conference (ACP 2026)_** <span class="pub-meta">(Accepted, Oral Presentation)</span>
+
 - **Distributed Flow Control for Efficient DNN Training Scheduling**\\
 Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
 **_IEEE Transactions on Network and Service Management (TNSM)_** <span class="pub-meta">(JCR Q1, CCF-C)</span>\\
@@ -137,6 +141,10 @@ Ziyang Chen<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Fei Song\\
 Jintao Guo<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Chao Li, Guixun Luo\\
 **_ACM CCS 2025_** <span class="pub-meta">(CCF-A, Under Review)</span>\\
 [[arxiv](https://arxiv.org/abs/2507.06508)]
+
+- **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing**<sup>‡</sup>\\
+**<u>Ying Zhou</u>**, et al.\\
+**_IEEE Transactions on Network and Service Management_** <span class="pub-meta">(Major Revision)</span>
 
 </div>
 

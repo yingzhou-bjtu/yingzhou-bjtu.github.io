@@ -1,3 +1,15 @@
+- sort: 20260901
+  date: "2026.09"
+  icon: "🎉"
+  category: "Publication"
+  content: "**MoSE: Mode-Switching Expander for Mixed LLM Training and Inference** was accepted for **oral presentation** at **ACP 2026**."
+
+- sort: 20260831
+  date: "2026.08"
+  icon: "📝"
+  category: "Publication"
+  content: "Our manuscript **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing** received a **major revision** decision from **IEEE TNSM**."
+
 - sort: 20260819
   date: "2026.08"
   icon: "🎉"
