@@ -61,7 +61,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## ✨ Selected Publications {#selected-publications}
 
-### (<sup>*</sup>: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; <sup>‡</sup>: Under Review / 在投)
+### (<sup>*</sup>: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; <sup>‡</sup>: Under Review / 在投; <sup>§</sup>: Preprint / 预印本)
 
 <div class="pub-list" markdown="1">
 
@@ -87,7 +87,7 @@ Mingqiang Zhu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Jianxiang Chu, Ziya
 
 - **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**\\
 Heng Xu, Zhiwei Yu, Chengze Du, **<u>Ying Zhou</u>**, Letian Li, Haojie Wang, Weiqiang Cheng, Jialong Li\\
-**_IEEE/ACM Transactions on Networking (ToN)_** <span class="pub-meta">(JCR Q1, CCF-A)</span>\\
+**_IEEE Transactions on Networking (ToN)_** <span class="pub-meta">(JCR Q1, CCF-A)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11450478)] [[doi](https://doi.org/10.1109/ton.2026.3676382)]
 
 - **Gsched: Coordinated Flow-Control and Priority Scheduling for DNN Training in AI Cluster**\\
@@ -137,9 +137,9 @@ Ziyang Chen<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Fei Song\\
 **<u>Ying Zhou</u>**, et al.\\
 **_IEEE INFOCOM 2026_** <span class="pub-meta">(CCF-A, Under Review)</span>
 
-- **Subgraph Counting under Edge Local Differential Privacy Based on Noisy Adjacency Matrix**<sup>‡</sup>\\
-Jintao Guo<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Chao Li, Guixun Luo\\
-**_ACM CCS 2025_** <span class="pub-meta">(CCF-A, Under Review)</span>\\
+- **Locally Private Subgraph Counting via Noisy Adjacency Matrix and Differential Privacy on Randomized Data**<sup>§</sup>\\
+Jintao Guo, **<u>Ying Zhou</u>**, Chao Li, Guixun Luo, Yan Hu\\
+**_arXiv preprint_** <span class="pub-meta">(arXiv:2507.06508, v2, 2025)</span>\\
 [[arxiv](https://arxiv.org/abs/2507.06508)]
 
 - **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing**<sup>‡</sup>\\
