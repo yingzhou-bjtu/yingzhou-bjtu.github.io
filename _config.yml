@@ -1,6 +1,11 @@
 # Site Settings
-title                    : "Ying Zhou"
-description              : "AI Infrastructure Engineer at Moore Threads"
+title                    : "周瀛 Ying Zhou"
+description              : "周瀛（Ying Zhou），摩尔线程推理优化工程师，北京交通大学信息与通信工程博士，研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。"
+url                      : "https://yingzhou-bjtu.github.io"
+baseurl                  : ""
+locale                   : "zh-CN"
+timezone                 : Asia/Shanghai
+keywords                 : "周瀛, Ying Zhou, 摩尔线程, Moore Threads, 北京交通大学, 推理优化, AI基础设施, 分布式网络, 数据中心网络, 联邦学习, 大模型推理, 专利"
 repository               : "yingzhou-bjtu/yingzhou-bjtu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -14,17 +19,17 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Ying Zhou"
+  name             : "周瀛 (Ying Zhou)"
   avatar           : "images/avatar.png"
-  bio              : "AI Infrastructure Engineer<br>Moore Threads<br>Ph.D., Beijing Jiaotong University<br>B.E., China University of Petroleum (Beijing)"
-  location         : "Beijing, China"
-  employer         :
+  bio              : "Inference Optimization Engineer<br>Moore Threads (摩尔线程)<br>Ph.D., Beijing Jiaotong University<br>B.E., China University of Petroleum (Beijing)"
+  location         : "Chaoyang, Beijing, China"
+  employer         : "Moore Threads"
   pubmed           :
   googlescholar    :
   ieee_xplore      : "https://ieeexplore.ieee.org/author/37087009843"
   email            : "22110019@bjtu.edu.cn"
   researchgate     :
-  uri              :
+  uri              : "https://yingzhou-bjtu.github.io"
   bitbucket        :
   codepen          :
   dribbble         :

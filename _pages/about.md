@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "周瀛（Ying Zhou）｜摩尔线程推理优化工程师"
+excerpt: "周瀛（Ying Zhou）是摩尔线程推理优化工程师、北京交通大学信息与通信工程博士，研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,9 +17,11 @@ redirect_from:
   <p class="page-hero__tagline">Distributed Networks · AI Infrastructure · Federated Learning</p>
 </div>
 
-I'm Ying Zhou (<font face=STKaiti>周瀛</font>). I received my Ph.D. in Information and Communication Engineering from Beijing Jiaotong University in 2026, advised by Professor [Jialong Li](https://franklee94.github.io/) (<font face=STKaiti>李嘉龙</font>, SUAT), Professor [Fei Song](https://faculty.bjtu.edu.cn/8366/) (<font face=STKaiti>宋飞</font>, BJTU), and Professor [Renjie Xie](https://ieeexplore.ieee.org/author/37086882593) (<font face=STKaiti>谢仁杰</font>, GUET). I joined **Moore Threads** (<font face=STKaiti>摩尔线程</font>) as an **AI Infrastructure Engineer**. I received my bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
+I'm **Ying Zhou** (<font face=STKaiti>周瀛</font>). I am an **Inference Optimization Engineer** at **Moore Threads** (<font face=STKaiti>摩尔线程</font>) and received my Ph.D. in Information and Communication Engineering from **Beijing Jiaotong University** (<font face=STKaiti>北京交通大学</font>) in 2026. I received my bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
 
 My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
+
+中文简介：周瀛，现任摩尔线程推理优化工程师，北京交通大学信息与通信工程博士。主要研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。
 
 Feel free to reach out via email!
 

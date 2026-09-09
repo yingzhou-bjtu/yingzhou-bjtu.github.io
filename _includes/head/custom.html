@@ -11,3 +11,48 @@
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <!-- end custom head snippets -->
+<!-- Structured identity data for search engines and knowledge panels. -->
+<meta name="keywords" content="{{ site.keywords | escape }}">
+<meta name="author" content="周瀛 (Ying Zhou)">
+<meta name="geo.region" content="CN-BJ">
+<meta name="geo.placename" content="Beijing, China">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "周瀛",
+  "alternateName": "Ying Zhou",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "image": "{{ site.url }}{{ site.baseurl }}/{{ site.author.avatar }}",
+  "jobTitle": "Inference Optimization Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Moore Threads",
+    "alternateName": "摩尔线程"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Beijing Jiaotong University",
+      "alternateName": "北京交通大学"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "China University of Petroleum (Beijing)",
+      "alternateName": "中国石油大学（北京）"
+    }
+  ],
+  "knowsAbout": [
+    "Distributed Networks",
+    "Data Center Networks",
+    "Federated Learning",
+    "AI Infrastructure",
+    "Inference Optimization"
+  ],
+  "sameAs": [
+    "https://github.com/yingzhou-bjtu",
+    "https://ieeexplore.ieee.org/author/37087009843"
+  ]
+}
+</script>
