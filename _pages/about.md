@@ -28,17 +28,13 @@ Feel free to reach out via email!
 
 A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843).
 
-For a source-linked canonical profile and machine-readable identity record, see [Canonical Profile](/profile/) and [Verified Record](/evidence/).
-
-## Verified Highlights {#verified-highlights}
+## Highlights {#highlights}
 
 - **15 accepted or published research papers** listed across this site, including **10 first-author or co-first-author papers**.
 - **CCF-A co-authored paper**: RailS in IEEE/ACM Transactions on Networking on All-to-All communication for distributed Mixture-of-Experts training.
 - **National First Prize**, 2018 China Undergraduate Mathematical Contest in Modeling; the university reported 292 national first-prize teams and a **0.7% national first-prize rate**.
 - **1 granted Chinese invention patent** and **2 published invention patent applications** in networking and programmable data planes.
 - **3 IETF Internet-Drafts**, including one first-authored draft. These are expired Internet-Drafts, not IETF standards or endorsements.
-
-All listed highlights are linked to source records on the [Verified Record](/evidence/) page. Claims without a public source are not presented as verified.
 
 ## 🔥 News {#news}
 

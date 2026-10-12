@@ -20,7 +20,10 @@
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li class="author__location">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+          <span translate="no">{{ author.location }}</span>
+        </li>
       {% endif %}
       {% if author.employer %}
         <li><div style="white-space: normal;">{{ author.employer | markdownify }}</div></li>
