@@ -1,4 +1,5 @@
 _site/
+.sass-cache/
 push.sh
 .DS_Store
 vendor/

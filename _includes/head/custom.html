@@ -1,14 +1,14 @@
-<link rel="icon" href="images/favicon.ico?v=2" sizes="any">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=2">
-<link rel="manifest" href="images/site.webmanifest?v=2">
+<link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}?v=2" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | relative_url }}?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}?v=2">
+<link rel="manifest" href="{{ '/images/site.webmanifest' | relative_url }}?v=2">
 
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="msapplication-TileImage" content="{{ '/images/mstile-144x144.png' | relative_url }}?v=M44lzPylqQ">
+<meta name="msapplication-config" content="{{ '/images/browserconfig.xml' | relative_url }}?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}"/>
 
 <!-- end custom head snippets -->
 <!-- Structured identity data for search engines and knowledge panels. -->
@@ -16,43 +16,107 @@
 <meta name="author" content="周瀛 (Ying Zhou)">
 <meta name="geo.region" content="CN-BJ">
 <meta name="geo.placename" content="Beijing, China">
+<link rel="alternate" type="application/ld+json" href="/profile.json" title="Machine-readable canonical profile">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable profile summary">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "周瀛",
-  "alternateName": "Ying Zhou",
-  "url": "{{ site.url }}{{ site.baseurl }}/",
-  "image": "{{ site.url }}{{ site.baseurl }}/{{ site.author.avatar }}",
-  "jobTitle": "Inference Optimization Engineer",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Moore Threads",
-    "alternateName": "摩尔线程"
-  },
-  "alumniOf": [
+  "@graph": [
     {
-      "@type": "CollegeOrUniversity",
-      "name": "Beijing Jiaotong University",
-      "alternateName": "北京交通大学"
+      "@type": "Person",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#person",
+      "name": "周瀛",
+      "alternateName": ["Ying Zhou", "Zhou Ying", "yingzhou-bjtu"],
+      "description": "{{ site.description | escape }}",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "mainEntityOfPage": "{{ site.url }}{{ site.baseurl }}/profile/",
+      "image": "{{ site.url }}{{ site.baseurl }}/{{ site.author.avatar }}",
+      "jobTitle": "Inference Optimization Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Moore Threads",
+        "alternateName": "摩尔线程"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Beijing Jiaotong University",
+          "alternateName": "北京交通大学"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "China University of Petroleum (Beijing)",
+          "alternateName": "中国石油大学（北京）"
+        }
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0001-9803-262X"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "IEEE Author ID",
+          "value": "37087009843"
+        }
+      ],
+      "knowsAbout": [
+        "Distributed Networks",
+        "Data Center Networks",
+        "Federated Learning",
+        "AI Infrastructure",
+        "Large Language Model Inference",
+        "Mixture-of-Experts Communication",
+        "Network Optimization"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Beijing Guangxi Doctoral Students Association",
+        "alternateName": "北京广西博士生联谊会",
+        "description": "Vice Minister of the Innovation and Employment Department, 13th committee, 2023"
+      },
+      "award": [
+        "National First Prize, China Undergraduate Mathematical Contest in Modeling, 2018",
+        "Third Prize, Xinjiang University Student Mathematics Competition, 2017"
+      ],
+      "sameAs": [
+        "https://github.com/yingzhou-bjtu",
+        "https://orcid.org/0009-0001-9803-262X",
+        "https://ieeexplore.ieee.org/author/37087009843",
+        "https://datatracker.ietf.org/person/Ying%20Zhou"
+      ],
+      "subjectOf": [
+        "https://www.cupk.edu.cn/c/2018-11-28/495159.shtml",
+        "https://www.cupk.edu.cn/c/2017-09-28/489329.shtml",
+        "https://patents.google.com/patent/CN113950143B/zh",
+        "https://patents.google.com/patent/CN122093312A/zh",
+        "https://patents.google.com/patent/CN122387460A/zh"
+      ]
     },
     {
-      "@type": "CollegeOrUniversity",
-      "name": "China University of Petroleum (Beijing)",
-      "alternateName": "中国石油大学（北京）"
+      "@type": "ProfilePage",
+      "@id": "{{ site.url }}{{ site.baseurl }}/profile/#webpage",
+      "url": "{{ site.url }}{{ site.baseurl }}/profile/",
+      "name": "周瀛（Ying Zhou）｜Canonical Profile",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+        "url": "{{ site.url }}{{ site.baseurl }}/",
+        "name": "周瀛 Ying Zhou"
+      },
+      "mainEntity": {
+        "@id": "{{ site.url }}{{ site.baseurl }}/#person"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "name": "周瀛 Ying Zhou",
+      "inLanguage": "zh-CN"
     }
-  ],
-  "knowsAbout": [
-    "Distributed Networks",
-    "Data Center Networks",
-    "Federated Learning",
-    "AI Infrastructure",
-    "Inference Optimization"
-  ],
-  "sameAs": [
-    "https://github.com/yingzhou-bjtu",
-    "https://ieeexplore.ieee.org/author/37087009843"
   ]
 }
 </script>

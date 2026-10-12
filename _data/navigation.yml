@@ -15,6 +15,12 @@ main:
   - title: "Publications"
     url: "/#selected-publications"
 
+  - title: "Verified Record"
+    url: "/evidence/"
+
+  - title: "Canonical Profile"
+    url: "/profile/"
+
   - title: "Internships"
     url: "/#internships"
 

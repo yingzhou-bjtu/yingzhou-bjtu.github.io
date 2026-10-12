@@ -3,6 +3,7 @@ permalink: /
 title: "周瀛（Ying Zhou）｜摩尔线程推理优化工程师"
 excerpt: "周瀛（Ying Zhou）是摩尔线程推理优化工程师、北京交通大学信息与通信工程博士，研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。"
 author_profile: true
+type: profile
 redirect_from: 
   - /about/
   - /about.html
@@ -13,7 +14,7 @@ redirect_from:
 
 <div class="page-hero">
   <div class="page-hero__glow" aria-hidden="true"></div>
-  <p class="page-hero__name">Ying Zhou <span class="page-hero__cn">周瀛</span></p>
+  <h1 class="page-hero__name">Ying Zhou <span class="page-hero__cn">周瀛</span></h1>
   <p class="page-hero__tagline">Distributed Networks · AI Infrastructure · Federated Learning</p>
 </div>
 
@@ -26,6 +27,18 @@ My research interests span **distributed networks**, **data center networks**, *
 Feel free to reach out via email!
 
 A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843).
+
+For a source-linked canonical profile and machine-readable identity record, see [Canonical Profile](/profile/) and [Verified Record](/evidence/).
+
+## Verified Highlights {#verified-highlights}
+
+- **15 accepted or published research papers** listed across this site, including **10 first-author or co-first-author papers**.
+- **CCF-A co-authored paper**: RailS in IEEE/ACM Transactions on Networking on All-to-All communication for distributed Mixture-of-Experts training.
+- **National First Prize**, 2018 China Undergraduate Mathematical Contest in Modeling; the university reported 292 national first-prize teams and a **0.7% national first-prize rate**.
+- **1 granted Chinese invention patent** and **2 published invention patent applications** in networking and programmable data planes.
+- **3 IETF Internet-Drafts**, including one first-authored draft. These are expired Internet-Drafts, not IETF standards or endorsements.
+
+All listed highlights are linked to source records on the [Verified Record](/evidence/) page. Claims without a public source are not presented as verified.
 
 ## 🔥 News {#news}
 
@@ -55,7 +68,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 <div class="edu-entry">
   <img src="images/edu/mthreads.png" class="edu-logo-wide" alt="Moore Threads">
   <div class="edu-text">
-    <em>2026.06 - Present</em>, <strong>AI Infrastructure Engineer</strong><br>
+    <em>2026.06 - Present</em>, <strong>Inference Optimization Engineer</strong><br>
     <strong>Moore Threads</strong> (<font face=STKaiti>摩尔线程</font>)<br>
     <span class="edu-campus">A leading domestic full-stack GPU company building AI computing platforms, data-center infrastructure, and intelligent computing solutions for large-model training and deployment.</span>
   </div>
@@ -71,6 +84,11 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 **<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Zhiwei Yu, Heng Xu, Chengze Du, Jialong Li\\
 **_Journal of Network and Computer Applications_** <span class="pub-meta">(JCR Q1, CCF-C)</span> <span class="pub-details">Vol. 255, Art. 104562, 2026</span>\\
 [[doi](https://doi.org/10.1016/j.jnca.2026.104562)]
+
+- **Elastic Balancing of Communication Efficiency and Performance in Federated Learning with Staged Clustering**\\
+**<u>Ying Zhou</u>**, Fang Cui, Junlin Che, Mao Ni, Zhiyuan Zhang, Jundi Li\\
+**_Electronics_** <span class="pub-meta">(MDPI)</span> <span class="pub-details">Vol. 14, No. 4, Art. 745, 2025</span>\\
+[[doi](https://doi.org/10.3390/electronics14040745)]
 
 - **下一代智算中心光网络综述：架构、技术与挑战（特邀）**\\
 杨帆，王丙雷，**<u>周瀛</u>**，彭中华，刘博，李嘉龙<sup>†</sup>\\
@@ -226,10 +244,12 @@ A Python-based IoT data transmission and IPv6 identity management system with MQ
 
 ## 🏅 Honors and Awards {#honors-and-awards}
 
-- **National First Prize (Top 0.3%)**, China Undergraduate Mathematical Contest in Modeling (CUMCM), *2019*
-- **National Second Prize**, Huawei Cup Graduate Mathematical Contest in Modeling, *2024*
-- **National Third Prize**, Huawei Cup Graduate Mathematical Contest in Modeling, *2024*
-- **One granted patent**, 2 pending invention patents, 2 IETF drafts, and ¥900K project commercialization from the modeling project, *2024*
+- **National First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM), *2018*. Official university report: 292 national first-prize teams and a **0.7%** national first-prize rate. [Source](https://www.cupk.edu.cn/c/2018-11-28/495159.shtml)
+- **Third Prize**, Xinjiang University Student Mathematics Competition, *2017*. [Source](https://www.cupk.edu.cn/c/2017-09-28/489329.shtml)
+- **One granted Chinese invention patent**: `CN113950143B`, IoT device positioning. [Patent record](https://patents.google.com/patent/CN113950143B/zh)
+- **Two published invention patent applications**: `CN122093312A` (network path optimization) and `CN122387460A` (dynamic compilation for programmable data planes). These are application publications, not granted patents.
+- **Three IETF Internet-Drafts**, including first-authored `draft-zhou-pce-latency-00`. All are expired and do not represent IETF standards or endorsements. [IETF profile](https://datatracker.ietf.org/person/Ying%20Zhou)
+- **Huawei Cup Graduate Mathematical Contest in Modeling**, national second and third prizes, *2024*. Personal record; public award-list source is pending attachment.
 
 ## 🛠️ Skills {#skills}
 
