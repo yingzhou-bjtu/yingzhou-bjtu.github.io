@@ -30,11 +30,11 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## Highlights {#highlights}
 
-- **15 accepted or published research papers** listed across this site, including **10 first-author or co-first-author papers**.
-- **CCF-A co-authored paper**: RailS in IEEE/ACM Transactions on Networking on All-to-All communication for distributed Mixture-of-Experts training.
-- **National First Prize**, 2018 China Undergraduate Mathematical Contest in Modeling; the university reported 292 national first-prize teams and a **0.7% national first-prize rate**.
-- **1 granted Chinese invention patent** and **2 published invention patent applications** in networking and programmable data planes.
-- **3 IETF Internet-Drafts**, including one first-authored draft. These are expired Internet-Drafts, not IETF standards or endorsements.
+- Authored **15 accepted or published papers**, including **10 as first or co-first author**.
+- Co-authored **RailS** in IEEE/ACM Transactions on Networking, a CCF-A paper on All-to-All communication for distributed Mixture-of-Experts training.
+- Team member of the **National First Prize** at the 2018 China Undergraduate Mathematical Contest in Modeling. The university reported 292 national first-prize teams and a **0.7% national first-prize rate**.
+- Co-invented **one granted Chinese invention patent** and **two published invention patent applications** in networking and programmable data planes.
+- Authored **three IETF Internet-Drafts**, including one as first author.
 
 ## 🔥 News {#news}
 
