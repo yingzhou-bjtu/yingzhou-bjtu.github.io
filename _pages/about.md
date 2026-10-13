@@ -36,11 +36,11 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 - Co-invented **one granted Chinese invention patent** and **two published invention patent applications** in networking and programmable data planes.
 - Authored **three IETF Internet-Drafts**, including one as first author.
 
-## 🔥 News {#news}
+## News {#news}
 
 {% include news-list.html %}
 
-## 📖 Education {#educations}
+## Education {#educations}
 
 <div class="edu-entry">
   <img src="images/edu/bjtu.svg" class="edu-logo" alt="Beijing Jiaotong University">
@@ -59,7 +59,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
   </div>
 </div>
 
-## 💼 Work Experience {#work-experience}
+## Work Experience {#work-experience}
 
 <div class="edu-entry">
   <img src="images/edu/mthreads.png" class="edu-logo-wide" alt="Moore Threads">
@@ -70,7 +70,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
   </div>
 </div>
 
-## ✨ Selected Publications {#selected-publications}
+## Selected Publications {#selected-publications}
 
 ### (<sup>*</sup>: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; <sup>‡</sup>: Under Review / 在投; <sup>§</sup>: Preprint / 预印本)
 
@@ -164,7 +164,7 @@ Jintao Guo, **<u>Ying Zhou</u>**, Chao Li, Guixun Luo, Yan Hu\\
 
 </div>
 
-## 💼 Internships {#internships}
+## Internships {#internships}
 
 <div class="edu-entry">
   <img src="images/intern/xinyan-logo-cand-1.png" class="edu-logo-wide" alt="Xinyan Robotics">
@@ -220,7 +220,7 @@ Jintao Guo, **<u>Ying Zhou</u>**, Chao Li, Guixun Luo, Yan Hu\\
   </div>
 </div>
 
-## 🚀 Projects {#projects}
+## Projects {#projects}
 
 - **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**\\
 A dynamic load-aware Steiner aggregation routing algorithm for large-scale IoT networks, reducing max link utilization by 4.4%–28.8% over OLSR/AODV baselines while improving packet delivery rate. Published at **IEEE GLOBECOM 2025**.\\
@@ -230,15 +230,15 @@ A dynamic load-aware Steiner aggregation routing algorithm for large-scale IoT n
 Extended the SimAI framework for LLM distributed training by remapping collective communication to custom NCCL P2P sequences; joint SIGCOMM submission with Max Planck Institute.\\
 [[code](https://github.com/jhlxp/loongx)]
 
-- **Docker Network Simulation**\\
-A Docker-based network emulation platform supporting OSPF/LISP protocols, Mininet testbeds, and MQTT-based real-time network visualization.\\
-[[code](https://github.com/yingzhou-bjtu/DockerNetworkSimulation)]
+- **Containerized Routing Network Simulator**\\
+A containerized routing simulation platform for OSPF/LISP experiments, topology generation, and API-driven network operations.\\
+[[code](https://github.com/yingzhou-bjtu/containerized-routing-simulator)]
 
 - **Smart IoT & IPv6 Identity Management System**\\
 A Python-based IoT data transmission and IPv6 identity management system with MQTT messaging, deployed for State Grid smart infrastructure.\\
 [[demo](https://b23.tv/bNhyhaf)]
 
-## 🏅 Honors and Awards {#honors-and-awards}
+## Honors and Awards {#honors-and-awards}
 
 - **National First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM), *2018*. Official university report: 292 national first-prize teams and a **0.7%** national first-prize rate. [Source](https://www.cupk.edu.cn/c/2018-11-28/495159.shtml)
 - **Third Prize**, Xinjiang University Student Mathematics Competition, *2017*. [Source](https://www.cupk.edu.cn/c/2017-09-28/489329.shtml)

@@ -1,10 +1,14 @@
-# Ying Zhou Academic Homepage
+# Ying Zhou Academic Homepage Source
 
 This repository contains the source for Ying Zhou's academic homepage published
 at <https://yingzhou-bjtu.github.io/>.
 
 The site is based on the AcadHomepage/Jekyll structure, but this repository is
 the maintained public source for the personal homepage, not a template fork.
+
+## Project Identity
+
+See [docs/PROJECT_IDENTITY.md](docs/PROJECT_IDENTITY.md) for the public name, GitHub Pages slug constraint, scope, and directory contract.
 
 ## Repository Layout
 
