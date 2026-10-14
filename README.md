@@ -65,9 +65,11 @@ GOOGLE_SCHOLAR_ID=<author-id> python google_scholar_crawler/main.py
 ```
 
 Set `GOOGLE_SCHOLAR_OUTPUT_DIR` or pass `--output-dir` to write generated JSON
-outside the default `results/` directory. Set `GOOGLE_SCHOLAR_BADGE_LABEL` or
-pass `--badge-label` to customize the Shields.io label without editing the
-helper script. The site reads Scholar metadata from `_config.yml` values
+outside the default `results/` directory. Repository-local outputs must stay
+under `results/` or `google-scholar-stats/`; external temporary directories are
+allowed for local checks. Set `GOOGLE_SCHOLAR_BADGE_LABEL` or pass
+`--badge-label` to customize the Shields.io label without editing the helper
+script. The site reads Scholar metadata from `_config.yml` values
 `google_scholar_stats_ref` and `google_scholar_stats_path`.
 
 ## Validation

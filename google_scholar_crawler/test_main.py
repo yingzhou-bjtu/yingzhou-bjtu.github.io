@@ -72,6 +72,35 @@ def test_config_validation_rejects_bad_values() -> None:
             raise AssertionError("expected file output path to fail")
 
 
+def test_resolve_output_dir_accepts_expected_repository_dirs() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        assert main.resolve_output_dir(root / "results", root) == root / "results"
+        assert main.resolve_output_dir(root / "google-scholar-stats", root) == (
+            root / "google-scholar-stats"
+        )
+
+
+def test_resolve_output_dir_accepts_external_dir() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp) / "repo"
+        output_dir = Path(tmp) / "external-scholar-output"
+
+        assert main.resolve_output_dir(output_dir, root) == output_dir
+
+
+def test_resolve_output_dir_rejects_untracked_repository_dir() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        try:
+            main.resolve_output_dir(root / "tmp-scholar-output", root)
+        except ValueError as exc:
+            assert "results/" in str(exc)
+            assert "google-scholar-stats/" in str(exc)
+        else:
+            raise AssertionError("expected untracked repository output dir to fail")
+
+
 def test_write_author_outputs_uses_custom_badge_label() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         output_dir = Path(tmp)
@@ -86,4 +115,7 @@ if __name__ == "__main__":
     test_missing_scholar_id_exits_before_network_import()
     test_write_json_creates_parent_directory()
     test_config_validation_rejects_bad_values()
+    test_resolve_output_dir_accepts_expected_repository_dirs()
+    test_resolve_output_dir_accepts_external_dir()
+    test_resolve_output_dir_rejects_untracked_repository_dir()
     test_write_author_outputs_uses_custom_badge_label()

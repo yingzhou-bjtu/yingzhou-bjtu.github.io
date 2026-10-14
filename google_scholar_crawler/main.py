@@ -16,6 +16,8 @@ DEFAULT_OUTPUT_DIR = Path("results")
 SCHOLAR_ID_ENV = "GOOGLE_SCHOLAR_ID"
 OUTPUT_DIR_ENV = "GOOGLE_SCHOLAR_OUTPUT_DIR"
 BADGE_LABEL_ENV = "GOOGLE_SCHOLAR_BADGE_LABEL"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+REPOSITORY_OUTPUT_DIRS = ("results", "google-scholar-stats")
 
 
 @dataclass(frozen=True)
@@ -23,6 +25,33 @@ class CrawlerConfig:
     scholar_id: str
     output_dir: Path
     badge_label: str
+
+
+def path_is_relative_to(path: Path, parent: Path) -> bool:
+    try:
+        path.relative_to(parent)
+    except ValueError:
+        return False
+    return True
+
+
+def resolve_output_dir(output_dir: Path, project_root: Path = PROJECT_ROOT) -> Path:
+    expanded = output_dir.expanduser()
+    if expanded.exists() and not expanded.is_dir():
+        raise ValueError(f"Output path is not a directory: {output_dir}")
+
+    resolved = expanded.resolve(strict=False)
+    resolved_project_root = project_root.expanduser().resolve(strict=False)
+    if path_is_relative_to(resolved, resolved_project_root):
+        allowed_dirs = [
+            (resolved_project_root / dirname).resolve(strict=False)
+            for dirname in REPOSITORY_OUTPUT_DIRS
+        ]
+        if not any(path_is_relative_to(resolved, directory) for directory in allowed_dirs):
+            allowed = ", ".join(f"{dirname}/" for dirname in REPOSITORY_OUTPUT_DIRS)
+            raise ValueError(f"Output directory inside the repository must be under {allowed}")
+
+    return expanded
 
 
 def parse_args(
@@ -59,9 +88,7 @@ def config_from_args(args: argparse.Namespace) -> CrawlerConfig:
     if any(char.isspace() for char in scholar_id):
         raise ValueError("Google Scholar author ID must not contain whitespace.")
 
-    output_dir = args.output_dir.expanduser()
-    if output_dir.exists() and not output_dir.is_dir():
-        raise ValueError(f"Output path is not a directory: {output_dir}")
+    output_dir = resolve_output_dir(args.output_dir)
 
     badge_label = args.badge_label.strip()
     if not badge_label:
