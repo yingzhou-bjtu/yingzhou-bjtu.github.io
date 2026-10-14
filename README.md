@@ -38,6 +38,12 @@ bash run_server.sh
 
 Open <http://127.0.0.1:4000>.
 
+Override the local preview address when needed:
+
+```bash
+JEKYLL_HOST=0.0.0.0 JEKYLL_PORT=4001 bash run_server.sh
+```
+
 ## Content Update Workflow
 
 1. Update profile content in `_pages/` and structured data in `_data/`.
@@ -50,6 +56,15 @@ Open <http://127.0.0.1:4000>.
 The GitHub Actions workflow under `.github/workflows/` updates Google Scholar
 metadata when configured with the required repository secret. Do not commit
 private analytics keys, cookies, or service tokens.
+
+Run the Scholar metadata helper manually with:
+
+```bash
+GOOGLE_SCHOLAR_ID=<author-id> python google_scholar_crawler/main.py
+```
+
+Set `GOOGLE_SCHOLAR_OUTPUT_DIR` or pass `--output-dir` to write generated JSON
+outside the default `results/` directory.
 
 ## Validation
 
