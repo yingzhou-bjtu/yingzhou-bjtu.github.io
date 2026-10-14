@@ -64,7 +64,9 @@ GOOGLE_SCHOLAR_ID=<author-id> python google_scholar_crawler/main.py
 ```
 
 Set `GOOGLE_SCHOLAR_OUTPUT_DIR` or pass `--output-dir` to write generated JSON
-outside the default `results/` directory.
+outside the default `results/` directory. Set `GOOGLE_SCHOLAR_BADGE_LABEL` or
+pass `--badge-label` to customize the Shields.io label without editing the
+helper script.
 
 ## Validation
 
