@@ -184,14 +184,6 @@ def test_write_author_outputs_rejects_malformed_author_payload() -> None:
 
 
 if __name__ == "__main__":
-    test_parse_args_uses_environment_defaults()
-    test_parse_args_treats_empty_optional_env_as_default()
-    test_missing_scholar_id_exits_before_network_import()
-    test_write_json_creates_parent_directory()
-    test_write_json_preserves_existing_file_when_payload_fails()
-    test_config_validation_rejects_bad_values()
-    test_resolve_output_dir_accepts_expected_repository_dirs()
-    test_resolve_output_dir_accepts_external_dir()
-    test_resolve_output_dir_rejects_untracked_repository_dir()
-    test_write_author_outputs_uses_custom_badge_label()
-    test_write_author_outputs_rejects_malformed_author_payload()
+    for name, test_func in sorted(globals().items()):
+        if name.startswith("test_") and callable(test_func):
+            test_func()
