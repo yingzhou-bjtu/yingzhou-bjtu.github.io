@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import tempfile
 from pathlib import Path
 
@@ -104,10 +105,28 @@ def test_config_validation_rejects_bad_values() -> None:
 def test_resolve_output_dir_accepts_expected_repository_dirs() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)
-        assert main.resolve_output_dir(root / "results", root) == root / "results"
-        assert main.resolve_output_dir(root / "google-scholar-stats", root) == (
+        assert main.resolve_output_dir(Path("results"), root) == (
+            root / "results"
+        ).resolve()
+        assert main.resolve_output_dir(Path("google-scholar-stats"), root) == (
             root / "google-scholar-stats"
-        )
+        ).resolve()
+
+
+def test_resolve_output_dir_anchors_relative_paths_to_project_root() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp) / "repo"
+        root.mkdir()
+        nested_cwd = Path(tmp) / "nested"
+        nested_cwd.mkdir()
+        old_cwd = Path.cwd()
+        try:
+            os.chdir(nested_cwd)
+            assert main.resolve_output_dir(Path("results"), root) == (
+                root / "results"
+            ).resolve()
+        finally:
+            os.chdir(old_cwd)
 
 
 def test_resolve_output_dir_accepts_external_dir() -> None:

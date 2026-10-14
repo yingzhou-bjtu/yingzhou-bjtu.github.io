@@ -38,11 +38,14 @@ def path_is_relative_to(path: Path, parent: Path) -> bool:
 
 def resolve_output_dir(output_dir: Path, project_root: Path = PROJECT_ROOT) -> Path:
     expanded = output_dir.expanduser()
+    resolved_project_root = project_root.expanduser().resolve(strict=False)
+    if not expanded.is_absolute():
+        expanded = resolved_project_root / expanded
+
     if expanded.exists() and not expanded.is_dir():
         raise ValueError(f"Output path is not a directory: {output_dir}")
 
     resolved = expanded.resolve(strict=False)
-    resolved_project_root = project_root.expanduser().resolve(strict=False)
     if path_is_relative_to(resolved, resolved_project_root):
         allowed_dirs = [
             (resolved_project_root / dirname).resolve(strict=False)
@@ -52,7 +55,7 @@ def resolve_output_dir(output_dir: Path, project_root: Path = PROJECT_ROOT) -> P
             allowed = ", ".join(f"{dirname}/" for dirname in REPOSITORY_OUTPUT_DIRS)
             raise ValueError(f"Output directory inside the repository must be under {allowed}")
 
-    return expanded
+    return resolved
 
 
 def parse_args(
