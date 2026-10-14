@@ -1,1 +1,56 @@
+name: Google Scholar crawler
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/google_scholar_crawler.yaml"
+      - "google_scholar_crawler/**"
+
+permissions:
+  contents: write
+
+env:
+  GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+  GOOGLE_SCHOLAR_OUTPUT_DIR: google-scholar-stats
+  GOOGLE_SCHOLAR_BADGE_LABEL: citations
+
+jobs:
+  scholar-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run crawler unit tests
+        run: python3 google_scholar_crawler/test_main.py
+
+      - name: Install crawler dependencies
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: python3 -m pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Scholar metadata
+        if: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && env.GOOGLE_SCHOLAR_ID != '' }}
+        run: python3 google_scholar_crawler/main.py
+
+      - name: Commit updated Scholar metadata
+        if: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && env.GOOGLE_SCHOLAR_ID != '' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add google-scholar-stats/gs_data.json google-scholar-stats/gs_data_shieldsio.json
+          if git diff --cached --quiet; then
+            echo "Scholar metadata is unchanged."
+          else
+            git commit -m "chore: update google scholar stats"
+            git push
+          fi

@@ -1,11 +1,13 @@
 <script>
     $(document).ready(function () {
+        {% assign gs_stats_ref = site.google_scholar_stats_ref | default: 'main' %}
+        {% assign gs_stats_path = site.google_scholar_stats_path | default: 'google-scholar-stats' %}
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@{{ gs_stats_ref }}/{{ gs_stats_path }}/'
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/{{ gs_stats_ref }}/{{ gs_stats_path }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+        $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
             var totalCitation = data['citedby']
             document.getElementById('total_cit').innerHTML = totalCitation;
             var citationEles = document.getElementsByClassName('show_paper_citations')

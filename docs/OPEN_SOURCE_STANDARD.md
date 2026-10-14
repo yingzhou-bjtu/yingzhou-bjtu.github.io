@@ -37,7 +37,7 @@ _layouts/
 _sass/
 images/
 docs/
-scripts/
+google_scholar_crawler/
 ```
 
 ## Code and Notebook Contract
