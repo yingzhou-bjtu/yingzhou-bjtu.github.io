@@ -73,7 +73,9 @@ script. The site reads Scholar metadata from `_config.yml` values
 `google_scholar_stats_ref` and `google_scholar_stats_path`.
 The helper validates the fetched author payload before writing `gs_data.json`
 and the Shields.io badge JSON, so malformed citation data fails before it is
-published.
+published. JSON outputs are written through a temporary file in the target
+directory and then atomically replaced, so an interrupted refresh does not leave
+partially written public metadata.
 
 ## Validation
 

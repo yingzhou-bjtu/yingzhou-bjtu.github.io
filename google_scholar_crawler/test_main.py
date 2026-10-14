@@ -37,6 +37,22 @@ def test_write_json_creates_parent_directory() -> None:
         path = Path(tmp) / "nested" / "payload.json"
         main.write_json(path, {"ok": True})
         assert path.read_text(encoding="utf-8") == '{\n  "ok": true\n}\n'
+        assert not list(path.parent.glob(".payload.json.*.tmp"))
+
+
+def test_write_json_preserves_existing_file_when_payload_fails() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "payload.json"
+        path.write_text('{"old": true}\n', encoding="utf-8")
+        try:
+            main.write_json(path, {"bad": object()})
+        except TypeError:
+            pass
+        else:
+            raise AssertionError("expected non-JSON payload to fail")
+
+        assert path.read_text(encoding="utf-8") == '{"old": true}\n'
+        assert not list(path.parent.glob(".payload.json.*.tmp"))
 
 
 def test_config_validation_rejects_bad_values() -> None:
@@ -139,6 +155,7 @@ if __name__ == "__main__":
     test_parse_args_uses_environment_defaults()
     test_missing_scholar_id_exits_before_network_import()
     test_write_json_creates_parent_directory()
+    test_write_json_preserves_existing_file_when_payload_fails()
     test_config_validation_rejects_bad_values()
     test_resolve_output_dir_accepts_expected_repository_dirs()
     test_resolve_output_dir_accepts_external_dir()

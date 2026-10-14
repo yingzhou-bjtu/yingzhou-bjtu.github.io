@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import tempfile
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -115,7 +116,25 @@ def fetch_author(scholar_id: str) -> dict:
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    encoded = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    tmp_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            "w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = Path(tmp_file.name)
+            tmp_file.write(encoded)
+            tmp_file.flush()
+            os.fsync(tmp_file.fileno())
+        tmp_path.replace(path)
+    finally:
+        if tmp_path is not None and tmp_path.exists():
+            tmp_path.unlink()
 
 
 def shields_payload(author: Mapping[str, object], label: str) -> dict[str, object]:
