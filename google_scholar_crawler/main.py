@@ -25,22 +25,26 @@ class CrawlerConfig:
     badge_label: str
 
 
-def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+def parse_args(
+    argv: list[str] | None = None,
+    env: Mapping[str, str] | None = None,
+) -> argparse.Namespace:
+    env_values = os.environ if env is None else env
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--scholar-id",
-        default=os.environ.get(SCHOLAR_ID_ENV, ""),
+        default=env_values.get(SCHOLAR_ID_ENV, ""),
         help=f"Google Scholar author ID. Defaults to ${SCHOLAR_ID_ENV}.",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path(os.environ.get(OUTPUT_DIR_ENV, DEFAULT_OUTPUT_DIR)),
+        default=Path(env_values.get(OUTPUT_DIR_ENV, DEFAULT_OUTPUT_DIR)),
         help=f"Directory for generated JSON files. Defaults to ${OUTPUT_DIR_ENV} or results/.",
     )
     parser.add_argument(
         "--badge-label",
-        default=os.environ.get(BADGE_LABEL_ENV, "citations"),
+        default=env_values.get(BADGE_LABEL_ENV, "citations"),
         help=f"Shields.io badge label. Defaults to ${BADGE_LABEL_ENV} or citations.",
     )
     return parser.parse_args(argv)

@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import os
 import tempfile
 from pathlib import Path
 
@@ -10,45 +9,27 @@ import main
 
 
 def test_parse_args_uses_environment_defaults() -> None:
-    old_id = os.environ.get(main.SCHOLAR_ID_ENV)
-    old_output = os.environ.get(main.OUTPUT_DIR_ENV)
-    old_label = os.environ.get(main.BADGE_LABEL_ENV)
-    try:
-        os.environ[main.SCHOLAR_ID_ENV] = "test-author"
-        os.environ[main.OUTPUT_DIR_ENV] = "tmp-scholar-output"
-        os.environ[main.BADGE_LABEL_ENV] = "profile citations"
-        args = main.parse_args([])
-        assert args.scholar_id == "test-author"
-        assert args.output_dir == Path("tmp-scholar-output")
-        assert args.badge_label == "profile citations"
-    finally:
-        if old_id is None:
-            os.environ.pop(main.SCHOLAR_ID_ENV, None)
-        else:
-            os.environ[main.SCHOLAR_ID_ENV] = old_id
-        if old_output is None:
-            os.environ.pop(main.OUTPUT_DIR_ENV, None)
-        else:
-            os.environ[main.OUTPUT_DIR_ENV] = old_output
-        if old_label is None:
-            os.environ.pop(main.BADGE_LABEL_ENV, None)
-        else:
-            os.environ[main.BADGE_LABEL_ENV] = old_label
+    args = main.parse_args(
+        [],
+        env={
+            main.SCHOLAR_ID_ENV: "test-author",
+            main.OUTPUT_DIR_ENV: "tmp-scholar-output",
+            main.BADGE_LABEL_ENV: "profile citations",
+        },
+    )
+    assert args.scholar_id == "test-author"
+    assert args.output_dir == Path("tmp-scholar-output")
+    assert args.badge_label == "profile citations"
 
 
 def test_missing_scholar_id_exits_before_network_import() -> None:
-    old_id = os.environ.get(main.SCHOLAR_ID_ENV)
     try:
-        os.environ.pop(main.SCHOLAR_ID_ENV, None)
-        try:
-            main.main([])
-        except SystemExit as exc:
-            assert "Missing Google Scholar author ID" in str(exc)
-        else:
-            raise AssertionError("main() should exit when no Scholar ID is configured")
-    finally:
-        if old_id is not None:
-            os.environ[main.SCHOLAR_ID_ENV] = old_id
+        args = main.parse_args([], env={})
+        main.config_from_args(args)
+    except ValueError as exc:
+        assert "Missing Google Scholar author ID" in str(exc)
+    else:
+        raise AssertionError("config_from_args() should fail without a Scholar ID")
 
 
 def test_write_json_creates_parent_directory() -> None:
