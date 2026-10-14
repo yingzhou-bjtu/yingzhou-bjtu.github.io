@@ -126,7 +126,20 @@ def shields_payload(author: Mapping[str, object], label: str) -> dict[str, objec
     }
 
 
+def validate_author_payload(author: Mapping[str, object]) -> None:
+    citedby = author.get("citedby")
+    if not isinstance(citedby, int) or isinstance(citedby, bool) or citedby < 0:
+        raise ValueError(
+            "Scholar author payload must include non-negative integer citedby."
+        )
+
+    publications = author.get("publications")
+    if not isinstance(publications, Mapping):
+        raise ValueError("Scholar author payload must include publications mapping.")
+
+
 def write_author_outputs(output_dir: Path, author: dict, badge_label: str) -> None:
+    validate_author_payload(author)
     write_json(output_dir / "gs_data.json", author)
     write_json(
         output_dir / "gs_data_shieldsio.json",

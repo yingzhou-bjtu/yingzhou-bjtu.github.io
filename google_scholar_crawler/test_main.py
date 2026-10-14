@@ -110,6 +110,31 @@ def test_write_author_outputs_uses_custom_badge_label() -> None:
         assert '"label": "profile citations"' in shield.read_text(encoding="utf-8")
 
 
+def test_write_author_outputs_rejects_malformed_author_payload() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        output_dir = Path(tmp)
+        try:
+            main.write_author_outputs(output_dir, {"publications": {}}, "citations")
+        except ValueError as exc:
+            assert "citedby" in str(exc)
+        else:
+            raise AssertionError("expected missing citedby to fail")
+
+        try:
+            main.write_author_outputs(
+                output_dir,
+                {"citedby": 123, "publications": []},
+                "citations",
+            )
+        except ValueError as exc:
+            assert "publications mapping" in str(exc)
+        else:
+            raise AssertionError("expected non-mapping publications to fail")
+
+        assert not (output_dir / "gs_data.json").exists()
+        assert not (output_dir / "gs_data_shieldsio.json").exists()
+
+
 if __name__ == "__main__":
     test_parse_args_uses_environment_defaults()
     test_missing_scholar_id_exits_before_network_import()
@@ -119,3 +144,4 @@ if __name__ == "__main__":
     test_resolve_output_dir_accepts_external_dir()
     test_resolve_output_dir_rejects_untracked_repository_dir()
     test_write_author_outputs_uses_custom_badge_label()
+    test_write_author_outputs_rejects_malformed_author_payload()
