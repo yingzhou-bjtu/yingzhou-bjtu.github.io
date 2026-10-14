@@ -69,7 +69,8 @@ outside the default `results/` directory. Repository-local outputs must stay
 under `results/` or `google-scholar-stats/`; external temporary directories are
 allowed for local checks. Set `GOOGLE_SCHOLAR_BADGE_LABEL` or pass
 `--badge-label` to customize the Shields.io label without editing the helper
-script. The site reads Scholar metadata from `_config.yml` values
+script. Empty optional environment variables fall back to these defaults instead
+of changing the output path. The site reads Scholar metadata from `_config.yml` values
 `google_scholar_stats_ref` and `google_scholar_stats_path`.
 The helper validates the fetched author payload before writing `gs_data.json`
 and the Shields.io badge JSON, so malformed citation data fails before it is

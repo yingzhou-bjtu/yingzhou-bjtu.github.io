@@ -60,6 +60,8 @@ def parse_args(
     env: Mapping[str, str] | None = None,
 ) -> argparse.Namespace:
     env_values = os.environ if env is None else env
+    output_dir_default = env_values.get(OUTPUT_DIR_ENV) or DEFAULT_OUTPUT_DIR
+    badge_label_default = env_values.get(BADGE_LABEL_ENV) or "citations"
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--scholar-id",
@@ -69,12 +71,12 @@ def parse_args(
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path(env_values.get(OUTPUT_DIR_ENV, DEFAULT_OUTPUT_DIR)),
+        default=Path(output_dir_default),
         help=f"Directory for generated JSON files. Defaults to ${OUTPUT_DIR_ENV} or results/.",
     )
     parser.add_argument(
         "--badge-label",
-        default=env_values.get(BADGE_LABEL_ENV, "citations"),
+        default=badge_label_default,
         help=f"Shields.io badge label. Defaults to ${BADGE_LABEL_ENV} or citations.",
     )
     return parser.parse_args(argv)

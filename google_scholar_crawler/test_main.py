@@ -22,6 +22,19 @@ def test_parse_args_uses_environment_defaults() -> None:
     assert args.badge_label == "profile citations"
 
 
+def test_parse_args_treats_empty_optional_env_as_default() -> None:
+    args = main.parse_args(
+        [],
+        env={
+            main.SCHOLAR_ID_ENV: "test-author",
+            main.OUTPUT_DIR_ENV: "",
+            main.BADGE_LABEL_ENV: "",
+        },
+    )
+    assert args.output_dir == main.DEFAULT_OUTPUT_DIR
+    assert args.badge_label == "citations"
+
+
 def test_missing_scholar_id_exits_before_network_import() -> None:
     try:
         args = main.parse_args([], env={})
@@ -153,6 +166,7 @@ def test_write_author_outputs_rejects_malformed_author_payload() -> None:
 
 if __name__ == "__main__":
     test_parse_args_uses_environment_defaults()
+    test_parse_args_treats_empty_optional_env_as_default()
     test_missing_scholar_id_exits_before_network_import()
     test_write_json_creates_parent_directory()
     test_write_json_preserves_existing_file_when_payload_fails()
