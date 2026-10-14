@@ -74,6 +74,13 @@ For documentation-only changes:
 git diff --check
 ```
 
+For the Scholar helper CLI:
+
+```bash
+python3 google_scholar_crawler/test_main.py
+python3 google_scholar_crawler/main.py --help
+```
+
 For site changes:
 
 ```bash
