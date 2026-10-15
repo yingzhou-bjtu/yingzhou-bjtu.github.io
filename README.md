@@ -81,6 +81,8 @@ directory and then atomically replaced, so an interrupted refresh does not leave
 partially written public metadata.
 Publication IDs are indexed explicitly: missing or duplicate `author_pub_id`
 values fail the refresh instead of silently overwriting an earlier record.
+Direct `CrawlerConfig` construction and output writes also validate the Scholar
+author ID, filesystem path, and non-empty single-line badge label.
 
 ## Validation
 

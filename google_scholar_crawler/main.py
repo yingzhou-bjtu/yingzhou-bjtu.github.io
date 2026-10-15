@@ -27,6 +27,37 @@ class CrawlerConfig:
     output_dir: Path
     badge_label: str
 
+    def __post_init__(self) -> None:
+        object.__setattr__(self, "scholar_id", normalize_scholar_id(self.scholar_id))
+        object.__setattr__(self, "badge_label", normalize_badge_label(self.badge_label))
+        if not isinstance(self.output_dir, (str, os.PathLike)):
+            raise ValueError("Output directory must be a filesystem path.")
+        object.__setattr__(self, "output_dir", Path(self.output_dir))
+
+
+def normalize_scholar_id(scholar_id: str) -> str:
+    if not isinstance(scholar_id, str):
+        raise ValueError("Google Scholar author ID must be a string.")
+    value = scholar_id.strip()
+    if not value:
+        raise ValueError(
+            f"Missing Google Scholar author ID. Set ${SCHOLAR_ID_ENV} or pass --scholar-id."
+        )
+    if any(char.isspace() for char in value):
+        raise ValueError("Google Scholar author ID must not contain whitespace.")
+    return value
+
+
+def normalize_badge_label(badge_label: str) -> str:
+    if not isinstance(badge_label, str):
+        raise ValueError("Badge label must be a string.")
+    value = badge_label.strip()
+    if not value:
+        raise ValueError("Badge label must not be empty.")
+    if "\r" in value or "\n" in value:
+        raise ValueError("Badge label must not contain newlines.")
+    return value
+
 
 def path_is_relative_to(path: Path, parent: Path) -> bool:
     try:
@@ -86,19 +117,9 @@ def parse_args(
 
 
 def config_from_args(args: argparse.Namespace) -> CrawlerConfig:
-    scholar_id = args.scholar_id.strip()
-    if not scholar_id:
-        raise ValueError(
-            f"Missing Google Scholar author ID. Set ${SCHOLAR_ID_ENV} or pass --scholar-id."
-        )
-    if any(char.isspace() for char in scholar_id):
-        raise ValueError("Google Scholar author ID must not contain whitespace.")
-
+    scholar_id = normalize_scholar_id(args.scholar_id)
     output_dir = resolve_output_dir(args.output_dir)
-
-    badge_label = args.badge_label.strip()
-    if not badge_label:
-        raise ValueError("Badge label must not be empty.")
+    badge_label = normalize_badge_label(args.badge_label)
     return CrawlerConfig(
         scholar_id=scholar_id,
         output_dir=output_dir,
@@ -184,6 +205,7 @@ def validate_author_payload(author: Mapping[str, object]) -> None:
 
 def write_author_outputs(output_dir: Path, author: dict, badge_label: str) -> None:
     validate_author_payload(author)
+    badge_label = normalize_badge_label(badge_label)
     write_json(output_dir / "gs_data.json", author)
     write_json(
         output_dir / "gs_data_shieldsio.json",

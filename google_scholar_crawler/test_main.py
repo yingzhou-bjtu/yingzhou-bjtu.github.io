@@ -218,6 +218,54 @@ def test_index_publications_rejects_missing_ids_and_duplicates() -> None:
             raise AssertionError(f"expected publication payload to fail: {publications!r}")
 
 
+def test_crawler_config_normalizes_direct_values() -> None:
+    config = main.CrawlerConfig(
+        scholar_id="  abc123  ",
+        output_dir="results",
+        badge_label="  citations  ",
+    )
+
+    assert config.scholar_id == "abc123"
+    assert config.output_dir == Path("results")
+    assert config.badge_label == "citations"
+
+
+def test_crawler_config_rejects_invalid_direct_values() -> None:
+    for overrides, message in (
+        ({"scholar_id": 1}, "must be a string"),
+        ({"scholar_id": "a b"}, "must not contain whitespace"),
+        ({"badge_label": 1}, "Badge label must be a string"),
+        ({"badge_label": "bad\nlabel"}, "must not contain newlines"),
+        ({"output_dir": 1}, "must be a filesystem path"),
+    ):
+        values = {
+            "scholar_id": "abc123",
+            "output_dir": Path("results"),
+            "badge_label": "citations",
+        }
+        values.update(overrides)
+        try:
+            main.CrawlerConfig(**values)
+        except ValueError as exc:
+            assert message in str(exc)
+        else:
+            raise AssertionError(f"invalid crawler config was accepted: {overrides}")
+
+
+def test_write_author_outputs_rejects_invalid_direct_badge_label() -> None:
+    author = {"citedby": 7, "publications": {}}
+    with tempfile.TemporaryDirectory(prefix="scholar-output-label-") as temporary:
+        output_dir = Path(temporary)
+        try:
+            main.write_author_outputs(output_dir, author, "bad\nlabel")
+        except ValueError as exc:
+            assert "newlines" in str(exc)
+        else:
+            raise AssertionError("invalid badge label was accepted")
+        assert not (output_dir / "gs_data.json").exists()
+        assert not (output_dir / "gs_data_shieldsio.json").exists()
+
+
 if __name__ == "__main__":
     for name, test_func in sorted(globals().items()):
         if name.startswith("test_") and callable(test_func):
