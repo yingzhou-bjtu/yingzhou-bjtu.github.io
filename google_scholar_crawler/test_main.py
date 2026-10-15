@@ -183,6 +183,41 @@ def test_write_author_outputs_rejects_malformed_author_payload() -> None:
         assert not (output_dir / "gs_data_shieldsio.json").exists()
 
 
+def test_index_publications_preserves_each_unique_record() -> None:
+    publications = [
+        {"author_pub_id": "paper-a", "title": "A"},
+        {"author_pub_id": "paper-b", "title": "B"},
+    ]
+
+    indexed = main.index_publications(publications)
+
+    assert list(indexed) == ["paper-a", "paper-b"]
+    assert indexed["paper-a"]["title"] == "A"
+    assert indexed["paper-a"] is not publications[0]
+
+
+def test_index_publications_rejects_missing_ids_and_duplicates() -> None:
+    for publications, message in (
+        ([{"title": "missing"}], "missing author_pub_id"),
+        (
+            [
+                {"author_pub_id": "duplicate", "title": "A"},
+                {"author_pub_id": "duplicate", "title": "B"},
+            ],
+            "Duplicate Scholar author_pub_id",
+        ),
+        ([{"author_pub_id": ""}], "missing author_pub_id"),
+        (["not-an-object"], "must be an object"),
+        ({"author_pub_id": "not-a-list"}, "must be a list"),
+    ):
+        try:
+            main.index_publications(publications)
+        except ValueError as exc:
+            assert message in str(exc)
+        else:
+            raise AssertionError(f"expected publication payload to fail: {publications!r}")
+
+
 if __name__ == "__main__":
     for name, test_func in sorted(globals().items()):
         if name.startswith("test_") and callable(test_func):

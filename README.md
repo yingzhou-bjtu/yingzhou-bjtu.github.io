@@ -79,6 +79,8 @@ and the Shields.io badge JSON, so malformed citation data fails before it is
 published. JSON outputs are written through a temporary file in the target
 directory and then atomically replaced, so an interrupted refresh does not leave
 partially written public metadata.
+Publication IDs are indexed explicitly: missing or duplicate `author_pub_id`
+values fail the refresh instead of silently overwriting an earlier record.
 
 ## Validation
 

@@ -112,11 +112,31 @@ def fetch_author(scholar_id: str) -> dict:
     author: dict = scholarly.search_author_id(scholar_id)
     scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
     author["updated"] = datetime.now(timezone.utc).isoformat()
-    author["publications"] = {
-        publication["author_pub_id"]: publication
-        for publication in author["publications"]
-    }
+    author["publications"] = index_publications(author.get("publications"))
     return author
+
+
+def index_publications(publications: object) -> dict[str, dict]:
+    if not isinstance(publications, list):
+        raise ValueError("Scholar author publications must be a list.")
+
+    indexed: dict[str, dict] = {}
+    for position, publication in enumerate(publications):
+        if not isinstance(publication, Mapping):
+            raise ValueError(
+                f"Scholar publication at index {position} must be an object."
+            )
+        publication_id = publication.get("author_pub_id")
+        if not isinstance(publication_id, str) or not publication_id.strip():
+            raise ValueError(
+                f"Scholar publication at index {position} is missing author_pub_id."
+            )
+        if publication_id in indexed:
+            raise ValueError(
+                f"Duplicate Scholar author_pub_id: {publication_id}"
+            )
+        indexed[publication_id] = dict(publication)
+    return indexed
 
 
 def write_json(path: Path, payload: dict) -> None:
