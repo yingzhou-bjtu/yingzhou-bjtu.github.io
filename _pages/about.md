@@ -72,34 +72,13 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 
 ## Selected Publications {#selected-publications}
 
+### Highlighted Publications
+
+The publications below are ordered by venue distinction and research significance. JCR/CCF labels are shown where they are useful for quick reference.
+
 ### (<sup>*</sup>: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; <sup>‡</sup>: Under Review / 在投; <sup>§</sup>: Preprint / 预印本)
 
 <div class="pub-list" markdown="1">
-
-- **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**\\
-**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Zhiwei Yu, Heng Xu, Chengze Du, Jialong Li\\
-**_Journal of Network and Computer Applications_** <span class="pub-meta">(JCR Q1, CCF-C)</span> <span class="pub-details">Vol. 255, Art. 104562, 2026</span>\\
-[[doi](https://doi.org/10.1016/j.jnca.2026.104562)]
-
-- **Elastic Balancing of Communication Efficiency and Performance in Federated Learning with Staged Clustering**\\
-**<u>Ying Zhou</u>**, Fang Cui, Junlin Che, Mao Ni, Zhiyuan Zhang, Jundi Li\\
-**_Electronics_** <span class="pub-meta">(MDPI)</span> <span class="pub-details">Vol. 14, No. 4, Art. 745, 2025</span>\\
-[[doi](https://doi.org/10.3390/electronics14040745)]
-
-- **下一代智算中心光网络综述：架构、技术与挑战（特邀）**\\
-杨帆，王丙雷，**<u>周瀛</u>**，彭中华，刘博，李嘉龙<sup>†</sup>\\
-**_光通信研究_** <span class="pub-meta">(中文核心)</span> <span class="pub-details">2026(04): 53--66</span>\\
-[[doi](https://doi.org/10.13756/j.gtxyj.2026.260125)]
-
-- **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
-**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
-**_IEEE Transactions on Consumer Electronics_** <span class="pub-meta">(JCR Q1, CCF-B)</span>\\
-[[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
-
-- **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**\\
-Mingqiang Zhu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Jianxiang Chu, Ziyang Chen, Huilin Ai, Jundi Li, Jinze Han\\
-**_China Communications_** <span class="pub-meta">(JCR Q2, CCF-C)</span>\\
-[[pdf](https://ieeexplore.ieee.org/document/11503160)] [[doi](https://doi.org/10.23919/jcc.fa.2025-0186.202603)]
 
 - **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**\\
 Heng Xu, Zhiwei Yu, Chengze Du, **<u>Ying Zhou</u>**, Letian Li, Haojie Wang, Weiqiang Cheng, Jialong Li\\
@@ -111,13 +90,19 @@ Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong
 **_IEEE Transactions on Network Science and Engineering (TNSE)_** <span class="pub-meta">(JCR Q1, CCF-B)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/11527076)] [[doi](https://doi.org/10.1109/tnse.2026.3695132)]
 
-- **MoSE: Mode-Switching Expander for Mixed LLM Training and Inference**\\
-Fan Yang, **<u>Ying Zhou</u>**, Binglei Wang, Zhenjie Zhou, Jialong Li\\
-**_Asia Communications and Photonics Conference (ACP 2026)_** <span class="pub-meta">(Accepted, Oral Presentation)</span>
+- **FedSA-CE: Selection-Aware Clustering for Personalized Federated Learning in Heterogeneous Vehicular Networks**\\
+**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Heng Xu, Chengze Du, Guangjing He, Jialong Li\\
+**_IEEE Transactions on Consumer Electronics_** <span class="pub-meta">(JCR Q1, CCF-B)</span>\\
+[[pdf](https://ieeexplore.ieee.org/document/11408890)] [[doi](https://doi.org/10.1109/tce.2026.3667716)]
 
 - **Distributed Flow Control for Efficient DNN Training Scheduling**\\
 Heng Xu, Chengze Du, Zhiwei Yu, Letian Li, **<u>Ying Zhou</u>**, Bo Liu, Jialong Li\\
 **_IEEE Transactions on Network and Service Management (TNSM)_** <span class="pub-meta">(JCR Q1, CCF-C)</span>\\
+
+- **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**\\
+**<u>Ying Zhou</u>**, Ziyang Chen, Huilin Ai, Zhiwei Yu, Heng Xu, Chengze Du, Jialong Li\\
+**_Journal of Network and Computer Applications_** <span class="pub-meta">(JCR Q1, CCF-C)</span> <span class="pub-details">2026</span>\\
+[[doi](https://doi.org/10.1016/j.jnca.2026.104562)]
 
 - **FMD-AL: Cold-Start Active Learning based on Foundation Model**\\
 Huilin Ai<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Zhonghua Peng, Ziyang Chen, Shuang Guo, Heng Xu, Zhiwei Yu, Jialong Li\\
@@ -129,38 +114,28 @@ Shuang Guo<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Meina Song, Huilin Ai,
 **_Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR) 2026_** <span class="pub-meta">(CCF-B)</span>\\
 [[pdf](https://doi.org/10.1145/3805622.3810874)] [[doi](https://doi.org/10.1145/3805622.3810874)]
 
-- **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**\\
-Ruitao Li<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Ziyang Chen, Mingzhen Wu, Yuming Zhang, Shaoying Wang, Fei Song\\
-**_IEEE GLOBECOM 2025_** <span class="pub-meta">(CCF-C)</span>\\
-[[pdf](https://ieeexplore.ieee.org/document/11432238)] [[doi](https://doi.org/10.1109/globecom59602.2025.11432238)]
-
-- **DVS-Based Vibration Spectrum Analysis for Optical-Fiber Path Matching**\\
-Mingzhen Wu<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Ziyang Chen, Mingqiang Zhu, Yue Liu\\
-**_IEEE ICC Workshops 2025_** <span class="pub-meta">(CCF-C)</span>\\
-[[pdf](https://ieeexplore.ieee.org/document/11162201)] [[doi](https://doi.org/10.1109/iccworkshops67674.2025.11162201)]
-
 - **AdapFed: Adaptive Devices Training Strategy for Heterogeneous Federated Learning**\\
 Ziyang Chen<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Fei Song\\
 **_IEEE ICASSP 2025_** <span class="pub-meta">(CCF-B)</span>\\
 [[pdf](https://ieeexplore.ieee.org/document/10890205)] [[doi](https://doi.org/10.1109/icassp49660.2025.10890205)]
 
-- **Correlation Analysis for Exploring Large-Scale Latency Variability in WANs**\\
-**<u>Ying Zhou</u>**, Mingzhen Wu, Fei Song\\
-**_IEEE IPCCC 2024_** <span class="pub-meta">(CCF-C)</span>\\
-[[pdf](https://ieeexplore.ieee.org/document/10850326)] [[doi](https://doi.org/10.1109/ipccc59868.2024.10850326)]
+### Additional Publications
 
-- **PIFCA: Optimizing Federated Clustering with Gradient Space Search in Non-IID Data**<sup>‡</sup>\\
-**<u>Ying Zhou</u>**, et al.\\
-**_IEEE INFOCOM 2026_** <span class="pub-meta">(CCF-A, Under Review)</span>
+The following publications are listed for completeness with compact metadata.
 
-- **Locally Private Subgraph Counting via Noisy Adjacency Matrix and Differential Privacy on Randomized Data**<sup>§</sup>\\
-Jintao Guo, **<u>Ying Zhou</u>**, Chao Li, Guixun Luo, Yan Hu\\
-**_arXiv preprint_** <span class="pub-meta">(arXiv:2507.06508, v2, 2025)</span>\\
-[[arxiv](https://arxiv.org/abs/2507.06508)]
+- **MoSE: Mode-Switching Expander for Mixed LLM Training and Inference**, **ACP 2026**, accepted oral presentation.
+- **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**, **China Communications** (JCR Q2).
+- **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**, **IEEE GLOBECOM 2025** (CCF-C).
+- **DVS-Based Vibration Spectrum Analysis for Optical-Fiber Path Matching**, **IEEE ICC Workshops 2025** (CCF-C).
+- **Correlation Analysis for Exploring Large-Scale Latency Variability in WANs**, **IEEE IPCCC 2024** (CCF-C).
+- **下一代智算中心光网络综述：架构、技术与挑战（特邀）**, **光通信研究**, 2026.
+- **Elastic Balancing of Communication Efficiency and Performance in Federated Learning with Staged Clustering**, **Electronics**, 2025. [[doi](https://doi.org/10.3390/electronics14040745)]
 
-- **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing**<sup>‡</sup>\\
-**<u>Ying Zhou</u>**, et al.\\
-**_IEEE Transactions on Network and Service Management_** <span class="pub-meta">(Major Revision)</span>
+### Under Review and Preprints
+
+- **PIFCA: Optimizing Federated Clustering with Gradient Space Search in Non-IID Data**, **IEEE INFOCOM 2026** (under review).
+- **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing**, **IEEE Transactions on Network and Service Management** (major revision).
+- **Locally Private Subgraph Counting via Noisy Adjacency Matrix and Differential Privacy on Randomized Data**, **arXiv** (2025). [[arxiv](https://arxiv.org/abs/2507.06508)]
 
 </div>
 

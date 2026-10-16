@@ -46,9 +46,10 @@ His research builds communication-efficient systems for distributed learning and
 
 ## Selected Papers
 
-- **FedSA-CE**, IEEE Transactions on Consumer Electronics, first author. [DOI](https://doi.org/10.1109/TCE.2026.3667716)
-- **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**, Journal of Network and Computer Applications, first author. [DOI](https://doi.org/10.1016/j.jnca.2026.104562)
-- **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**, IEEE/ACM Transactions on Networking, co-author. [DOI](https://doi.org/10.1109/TON.2026.3676382)
+- **RailS: Load Balancing for All-to-All Communication in Distributed Mixture-of-Experts Training**, IEEE/ACM Transactions on Networking (JCR Q1, CCF-A), co-author. [DOI](https://doi.org/10.1109/TON.2026.3676382)
+- **Gsched: Coordinated Flow-Control and Priority Scheduling for DNN Training in AI Cluster**, IEEE Transactions on Network Science and Engineering (JCR Q1, CCF-B), co-author. [DOI](https://doi.org/10.1109/TNSE.2026.3695132)
+- **FedSA-CE**, IEEE Transactions on Consumer Electronics (JCR Q1, CCF-B), first author. [DOI](https://doi.org/10.1109/TCE.2026.3667716)
+- **QoS fusion-driven optimization of routing cooperation mechanisms in IoT multi-AS communication networks**, Journal of Network and Computer Applications (JCR Q1, CCF-C), first author. [DOI](https://doi.org/10.1016/j.jnca.2026.104562)
 
 ## Profiles
 
