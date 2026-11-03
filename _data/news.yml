@@ -64,6 +64,12 @@
   category: "Publication"
   content: "1 co-first-author paper, accepted by **China Communications**: **I-AOMDV**."
 
+- sort: 20260210
+  date: "2026.02"
+  icon: "🎉"
+  category: "Publication"
+  content: "1 co-authored paper, published online in **IEEE Transactions on Network and Service Management (TNSM)** (CCF-C): **REACH: Reinforcement Learning for Efficient Allocation in Community and Heterogeneous Networks**."
+
 - sort: 20260101
   date: "2026.01"
   icon: "💼"
@@ -87,6 +93,12 @@
   icon: "🔬"
   category: "Career"
   content: "Completed a research internship at **Shenzhen University of Advanced Technology**, extending the SimAI communication layer for LLM training and making a joint submission to **SIGCOMM**."
+
+- sort: 20250818
+  date: "2025.08"
+  icon: "📄"
+  category: "Preprint"
+  content: "1 co-authored preprint on robust network topology obfuscation is available on **arXiv** ([arXiv](https://arxiv.org/abs/2508.12852))."
 
 - sort: 20250701
   date: "2025.07"

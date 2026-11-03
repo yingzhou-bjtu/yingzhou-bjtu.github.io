@@ -124,6 +124,7 @@ Ziyang Chen<sup>*</sup>, **<u>Ying Zhou</u><sup>*</sup>**, Fei Song\\
 The following publications are listed for completeness with compact metadata.
 
 - **MoSE: Mode-Switching Expander for Mixed LLM Training and Inference**, **ACP 2026**, accepted oral presentation.
+- **REACH: Reinforcement Learning for Efficient Allocation in Community and Heterogeneous Networks**, **_IEEE Transactions on Network and Service Management_** <span class="pub-meta">(JCR Q1, CCF-C)</span> <span class="pub-details">2026</span>\\ [[doi](https://doi.org/10.1109/TNSM.2026.3663316)]
 - **I-AOMDV: QoS-aware Multipath Routing Protocol for Enhanced Performance in Dynamic Multi-Node Vehicle Area Network**, **China Communications** (JCR Q2).
 - **DLSAG: Dynamic Load-aware Steiner Aggregation for Large-Scale Network Path Optimization**, **IEEE GLOBECOM 2025** (CCF-C).
 - **DVS-Based Vibration Spectrum Analysis for Optical-Fiber Path Matching**, **IEEE ICC Workshops 2025** (CCF-C).
@@ -136,6 +137,7 @@ The following publications are listed for completeness with compact metadata.
 - **PIFCA: Optimizing Federated Clustering with Gradient Space Search in Non-IID Data**, **IEEE INFOCOM 2026** (under review).
 - **Personalized Federated Learning with Orthogonal Knowledge Injection for Heterogeneous Edge Computing**, **IEEE Transactions on Network and Service Management** (major revision).
 - **Locally Private Subgraph Counting via Noisy Adjacency Matrix and Differential Privacy on Randomized Data**, **arXiv** (2025). [[arxiv](https://arxiv.org/abs/2507.06508)]
+- **RoTO: Robust Topology Obfuscation Against Tomography Inference Attacks**<sup>§</sup>, **arXiv** (2025). [[arxiv](https://arxiv.org/abs/2508.12852)]
 
 </div>
 
