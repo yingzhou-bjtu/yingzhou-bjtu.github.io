@@ -173,7 +173,7 @@ KV-cache integration, and audio-model runtimes.
 ## Internships {#internships}
 
 <div class="edu-entry">
-  <img src="images/intern/xinyan-logo-cand-1.png" class="edu-logo-wide" alt="Xinyan Robotics" loading="lazy" decoding="async">
+  <img src="images/intern/xinyan-logo-cand-1.png" class="edu-logo-wide intern-logo intern-logo--dark" alt="Xinyan Robotics" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2026.03 - 2026.06</em>, <strong>Robotics Infra Intern</strong><br>
     <strong>Xinyan Robotics</strong> (<font face=STKaiti>心言机器人</font>)<br>
@@ -181,7 +181,7 @@ KV-cache integration, and audio-model runtimes.
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/qc-ai.png" class="edu-logo" alt="Qingcheng Zhiji" loading="lazy" decoding="async">
+  <img src="images/intern/qc-ai.png" class="edu-logo intern-logo intern-logo--light" alt="Qingcheng Zhiji" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2025.10 - 2026.01</em>, <strong>AI Infra Intern</strong><br>
     <strong>Qingcheng Zhiji Technology</strong> (<font face=STKaiti>清程极智</font>)<br>
@@ -189,7 +189,7 @@ KV-cache integration, and audio-model runtimes.
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/suat.png" class="edu-logo-wide" alt="Shenzhen University of Advanced Technology" loading="lazy" decoding="async">
+  <img src="images/intern/suat.png" class="edu-logo-wide intern-logo intern-logo--dark" alt="Shenzhen University of Advanced Technology" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2025.07 - 2025.10</em>, <strong>Research Intern</strong><br>
     <strong>Shenzhen University of Advanced Technology</strong> (<font face=STKaiti>深圳理工大学</font>)<br>
@@ -197,7 +197,7 @@ KV-cache integration, and audio-model runtimes.
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/china-mobile-intl.svg" class="edu-logo-wide" alt="China Mobile" loading="lazy" decoding="async">
+  <img src="images/intern/china-mobile-intl.svg" class="edu-logo-wide intern-logo intern-logo--light" alt="China Mobile" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2024.08 - 2025.06</em>, <strong>Algorithm Intern</strong><br>
     <strong>China Mobile Terminal Company</strong> (<font face=STKaiti>中国移动终端公司</font>)<br>
@@ -205,7 +205,7 @@ KV-cache integration, and audio-model runtimes.
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/casic-parent.png" class="edu-logo-wide" alt="China Aerospace Science and Industry Corporation" loading="lazy" decoding="async">
+  <img src="images/intern/casic-parent.png" class="edu-logo-wide intern-logo intern-logo--light" alt="China Aerospace Science and Industry Corporation" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2022.10 - 2024.11</em>, <strong>Development Intern</strong><br>
     <strong>Aerospace Remote Sensing Equipment Institute</strong> (<font face=STKaiti>航天遥感设备所</font>)<br>
@@ -213,7 +213,7 @@ KV-cache integration, and audio-model runtimes.
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/state-grid-intl.svg" class="edu-logo-wide" alt="State Grid Corporation of China" loading="lazy" decoding="async">
+  <img src="images/intern/state-grid-intl.svg" class="edu-logo-wide intern-logo intern-logo--light" alt="State Grid Corporation of China" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2020.09 - 2021.07</em>, <strong>Development Intern</strong><br>
     <strong>State Grid Information &amp; Telecommunication Group</strong> (<font face=STKaiti>国网信息通信产业集团</font>)<br>

@@ -443,12 +443,28 @@ body {
   flex-shrink: 0;
 }
 
-#internships ~ .edu-entry .edu-logo,
-#internships ~ .edu-entry .edu-logo-wide {
+.intern-logo {
   padding: 8px 10px;
   border-radius: 10px;
-  background: #152238;
   box-sizing: border-box;
+}
+
+.intern-logo.edu-logo-wide {
+  width: 120px;
+}
+
+.intern-logo.edu-logo {
+  width: 56px;
+  height: 56px;
+}
+
+.intern-logo--dark {
+  background: #152238;
+}
+
+.intern-logo--light {
+  border: 1px solid rgba(23, 52, 95, 0.12);
+  background: #fff;
 }
 
 .edu-text {
