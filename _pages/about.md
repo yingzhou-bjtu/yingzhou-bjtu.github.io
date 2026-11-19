@@ -37,15 +37,17 @@ redirect_from:
   </div>
 </div>
 
-I'm **Ying Zhou** (<font face=STKaiti>周瀛</font>). I am an **Inference Optimization Engineer** at **Moore Threads** (<font face=STKaiti>摩尔线程</font>) and received my Ph.D. in Information and Communication Engineering from **Beijing Jiaotong University** (<font face=STKaiti>北京交通大学</font>) in 2026. I received my bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
+I'm **Ying Zhou** (<font face=STKaiti>周瀛</font>), an **Inference Optimization Engineer** at **Moore Threads** (<font face=STKaiti>摩尔线程</font>) and a 2026 Ph.D. graduate in Information and Communication Engineering from **Beijing Jiaotong University** (<font face=STKaiti>北京交通大学</font>). I ranked **1/60** in my B.E. program at **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>).
 
-My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
+My work connects **distributed networks**, **data-center systems**, **federated learning**, and **AI infrastructure**, with current engineering focus on MUSA runtime enablement, model serving, graph-safe execution, and reproducible performance.
 
-中文简介：周瀛，现任摩尔线程推理优化工程师，北京交通大学信息与通信工程博士。主要研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。
-
-Feel free to reach out via email!
-
-A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexplore.ieee.org/author/37087009843).
+<p class="impact-line" aria-label="Selected public record">
+  <strong>Public record</strong>
+  <span>15 accepted or published papers</span>
+  <span>10 first or co-first author papers</span>
+  <span>1 granted patent</span>
+  <span>3 IETF Internet-Drafts</span>
+</p>
 
 ## Highlights {#highlights}
 
@@ -85,15 +87,12 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
   <div class="edu-text">
     <em>2026.06 - Present</em>, <strong>Inference Optimization Engineer</strong><br>
     <strong>Moore Threads</strong> (<font face=STKaiti>摩尔线程</font>)<br>
-    <span class="edu-campus">A leading domestic full-stack GPU company building AI computing platforms, data-center infrastructure, and intelligent computing solutions for large-model training and deployment.</span>
   </div>
 </div>
 
 ## Selected Publications {#selected-publications}
 
 ### Highlighted Publications
-
-The publications below are ordered by venue distinction and research significance. JCR/CCF labels are shown where they are useful for quick reference.
 
 ### (<sup>*</sup>: Co-first Author / 共一作; <sup>†</sup>: Corresponding Author / 通讯作者; <sup>‡</sup>: Under Review / 在投; <sup>§</sup>: Preprint / 预印本)
 
@@ -162,9 +161,8 @@ The following publications are listed for completeness with compact metadata.
 
 ## Open-Source Systems {#open-source}
 
-Selected upstream work spans MUSA backend enablement, attention reuse, graph-safe
-capture, KV-cache integration, and audio-model runtimes. These contributions are
-kept separate from first-author research artifacts so ownership remains explicit.
+Selected upstream work in MUSA enablement, model serving, graph-safe execution,
+KV-cache integration, and audio-model runtimes.
 
 {% include contribution-cards.html limit=6 %}
 
@@ -179,7 +177,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2026.03 - 2026.06</em>, <strong>Robotics Infra Intern</strong><br>
     <strong>Xinyan Robotics</strong> (<font face=STKaiti>心言机器人</font>)<br>
-    <span class="edu-campus">Embodied-intelligence startup (Xinyan Group) behind the family companion robot Bubbo; worked on on-device robotics infrastructure—edge AI deployment, speech/speaker pipelines, and production readiness for mass shipment.</span>
   </div>
 </div>
 
@@ -188,7 +185,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2025.10 - 2026.01</em>, <strong>AI Infra Intern</strong><br>
     <strong>Qingcheng Zhiji Technology</strong> (<font face=STKaiti>清程极智</font>)<br>
-    <span class="edu-campus">Tsinghua-affiliated AI infrastructure startup building inference engines and turnkey deployment products for large-model serving.</span>
   </div>
 </div>
 
@@ -197,7 +193,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2025.07 - 2025.10</em>, <strong>Research Intern</strong><br>
     <strong>Shenzhen University of Advanced Technology</strong> (<font face=STKaiti>深圳理工大学</font>)<br>
-    <span class="edu-campus">A new research university in Shenzhen focused on AI, advanced computing, and interdisciplinary engineering research.</span>
   </div>
 </div>
 
@@ -206,7 +201,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2024.08 - 2025.06</em>, <strong>Algorithm Intern</strong><br>
     <strong>China Mobile Terminal Company</strong> (<font face=STKaiti>中国移动终端公司</font>)<br>
-    <span class="edu-campus">The terminal R&D subsidiary of China Mobile, developing intelligent algorithms and software for consumer devices.</span>
   </div>
 </div>
 
@@ -215,7 +209,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2022.10 - 2024.11</em>, <strong>Development Intern</strong><br>
     <strong>Aerospace Remote Sensing Equipment Institute</strong> (<font face=STKaiti>航天遥感设备所</font>)<br>
-    <span class="edu-campus">A research institute specializing in aerospace remote sensing systems and network communication technologies.</span>
   </div>
 </div>
 
@@ -224,7 +217,6 @@ kept separate from first-author research artifacts so ownership remains explicit
   <div class="edu-text">
     <em>2020.09 - 2021.07</em>, <strong>Development Intern</strong><br>
     <strong>State Grid Information &amp; Telecommunication Group</strong> (<font face=STKaiti>国网信息通信产业集团</font>)<br>
-    <span class="edu-campus">A State Grid subsidiary providing IoT, information and communication, and smart grid infrastructure solutions.</span>
   </div>
 </div>
 

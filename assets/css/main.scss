@@ -721,36 +721,31 @@ body {
   line-height: 1.8;
 }
 
-.contribution-principles {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 1.4rem 0 1.75rem;
-}
-
-.contribution-principles > div {
-  padding: 0.85rem 0.95rem;
-  border: 1px solid var(--line);
-  border-top: 3px solid rgba(15, 123, 131, 0.55);
-  border-radius: var(--radius-md);
-  background: rgba(248, 250, 252, 0.92);
-}
-
-.contribution-principles strong,
-.contribution-principles span {
-  display: block;
-}
-
-.contribution-principles strong {
-  margin-bottom: 0.2rem;
-  color: #0f172a;
+.impact-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 1.05rem 0 1.35rem;
+  color: var(--ink-muted);
   font-size: 0.82rem;
+  line-height: 1.5;
 }
 
-.contribution-principles span {
-  color: #64748b;
-  font-size: 0.76rem;
-  line-height: 1.5;
+.impact-line strong {
+  margin-right: 0.15rem;
+  color: var(--navy);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.impact-line span {
+  padding: 0.22rem 0.55rem;
+  border: 1px solid rgba(15, 123, 131, 0.16);
+  border-radius: 999px;
+  background: rgba(15, 123, 131, 0.06);
+  color: var(--ink);
 }
 
 .contribution-note {
@@ -769,8 +764,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .contribution-grid,
-  .contribution-principles {
+  .contribution-grid {
     grid-template-columns: 1fr;
   }
 

@@ -32,9 +32,14 @@ type: profile
   </div>
 </div>
 
-**周瀛（Ying Zhou）**，北京交通大学信息与通信工程博士，现任摩尔线程推理优化工程师。主要研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。
+**周瀛（Ying Zhou）**，北京交通大学信息与通信工程博士，现任摩尔线程推理优化工程师，研究与工程工作覆盖分布式网络、联邦学习、AI 基础设施和大模型推理优化。
 
-His work focuses on communication-efficient distributed systems, wide-area network performance, and large-scale network optimization. Recent work spans federated learning, data center networking, and AI inference systems.
+<p class="impact-line" aria-label="Selected public record">
+  <strong>Public record</strong>
+  <span>15 accepted or published papers</span>
+  <span>1 granted patent</span>
+  <span>3 IETF Internet-Drafts</span>
+</p>
 
 ## Profile
 
@@ -72,10 +77,6 @@ His work focuses on communication-efficient distributed systems, wide-area netwo
 - 2023 年任北京广西博士生联谊会第十三届创新就业部副部长，参与骨干班子工作交流会并担任新闻稿撰稿人。
 
 Further details are available in [Awards & Coverage](/evidence/).
-
-## Research
-
-His research builds communication-efficient systems for distributed learning and large-scale AI infrastructure. This work connects network measurement and optimization with the communication patterns of federated learning, mixture-of-experts training, and inference workloads.
 
 ## Selected Papers
 
