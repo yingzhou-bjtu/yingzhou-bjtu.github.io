@@ -1,0 +1,82 @@
+updated: "2026-11-19"
+selected:
+  - project: "SGLang"
+    area: "MUSA · Compiler"
+    number: 51491
+    title: "Public JIT compilation with mcc"
+    impact: "Enables JIT kernel builds through the standard public compilation path."
+    status: "open"
+    status_label: "Open PR"
+    url: "https://github.com/sgl-project/sglang/pull/51491"
+
+  - project: "SGLang"
+    area: "MUSA · KV Cache"
+    number: 50916
+    title: "Use the common store_cache backend"
+    impact: "Aligns MUSA KV-cache writes with the shared backend contract."
+    status: "open"
+    status_label: "Open PR"
+    url: "https://github.com/sgl-project/sglang/pull/50916"
+
+  - project: "SGLang"
+    area: "MUSA · Multimodal Runtime"
+    number: 50713
+    title: "MiniMax-H3-Image runtime support"
+    impact: "Enables the MiniMax-H3-Image path for MUSA serving."
+    status: "open"
+    status_label: "Open PR"
+    url: "https://github.com/sgl-project/sglang/pull/50713"
+
+  - project: "SGLang-Omni"
+    area: "MUSA · Audio"
+    number: 4071
+    title: "Reuse pinned transfer slots for dots.tts EOS staging"
+    impact: "Removes avoidable synchronization overhead from the streaming TTS path."
+    status: "open"
+    status_label: "Open PR"
+    url: "https://github.com/sgl-project/sglang-omni/pull/4071"
+
+  - project: "SGLang-Omni"
+    area: "MUSA · TTS"
+    number: 3833
+    title: "Enable MUSA audio and vocoder paths for MOSS-TTS"
+    impact: "Brings MOSS-TTS audio generation and vocoder execution to MUSA."
+    status: "open"
+    status_label: "Open PR"
+    url: "https://github.com/sgl-project/sglang-omni/pull/3833"
+
+  - project: "SGLang-Omni"
+    area: "Attention"
+    number: 3829
+    title: "Reuse the SGLang FAST attention backend for FishAudio S2-Pro"
+    impact: "Shares the production FAST attention path with the audio language model."
+    status: "merged"
+    status_label: "Merged"
+    url: "https://github.com/sgl-project/sglang-omni/pull/3829"
+
+  - project: "SGLang"
+    area: "MUSA · Graph Capture"
+    number: 47034
+    title: "Support portable breakable-capture status"
+    impact: "Makes capture state portable across breakable-prefill execution paths."
+    status: "merged"
+    status_label: "Merged"
+    url: "https://github.com/sgl-project/sglang/pull/47034"
+
+  - project: "torchada"
+    area: "Compatibility · RoPE"
+    number: 138
+    title: "Add joint in-place RoPE provider"
+    impact: "Provides a shared in-place RoPE implementation across CUDA-compatible backends."
+    status: "merged"
+    status_label: "Merged"
+    url: "https://github.com/MooreThreads/torchada/pull/138"
+
+  - project: "FlagTensor"
+    area: "Backend Enablement"
+    number: 14
+    title: "Add initial MUSA backend support"
+    impact: "Establishes the first MThreads/MUSA backend path for FlagTensor."
+    status: "merged"
+    status_label: "Merged"
+    url: "https://github.com/flagos-ai/FlagTensor/pull/14"

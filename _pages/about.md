@@ -141,6 +141,18 @@ The following publications are listed for completeness with compact metadata.
 
 </div>
 
+## Open-Source Systems {#open-source}
+
+Selected upstream work spans MUSA backend enablement, attention reuse, graph-safe
+capture, KV-cache integration, and audio-model runtimes. These contributions are
+kept separate from first-author research artifacts so ownership remains explicit.
+
+{% include contribution-cards.html limit=6 %}
+
+<p class="section-link">
+  <a href="{{ '/contributions/' | relative_url }}">View the full contribution map →</a>
+</p>
+
 ## Internships {#internships}
 
 <div class="edu-entry">

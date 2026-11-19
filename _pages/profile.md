@@ -31,6 +31,16 @@ His work focuses on communication-efficient distributed systems, wide-area netwo
 
 ## 代表性成果
 
+### Selected Upstream Contributions
+
+{% include contribution-cards.html limit=6 %}
+
+<p class="section-link">
+  <a href="{{ '/contributions/' | relative_url }}">Full public contribution map →</a>
+</p>
+
+### Research Highlights
+
 - 以第一作者或共同一作身份发表多篇论文，覆盖 IEEE TCE、JNCA、ICASSP、ICMR、GLOBECOM、ICC Workshops、IPCCC 等。
 - 参与 IEEE/ACM Transactions on Networking（ToN，CCF-A）论文 RailS，研究分布式 MoE 训练中的 All-to-All 通信负载均衡。
 - 2018 年全国大学生数学建模竞赛全国一等奖团队成员；学校官方报道显示全国一等奖共 292 支队伍，获奖率为 0.7%。
