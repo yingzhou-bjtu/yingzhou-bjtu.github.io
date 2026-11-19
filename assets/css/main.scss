@@ -140,7 +140,7 @@ body {
     radial-gradient(ellipse 75% 45% at 8% 0%, rgba(107, 211, 208, 0.18), transparent 62%),
     radial-gradient(ellipse 65% 45% at 100% 10%, rgba(23, 52, 95, 0.12), transparent 65%),
     linear-gradient(180deg, #f8fafc 0%, var(--canvas) 52%, #eef4f9 100%);
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 #main,
@@ -160,7 +160,6 @@ body {
   background-color: rgba(248, 250, 252, 0.9);
   transition: box-shadow 0.25s ease;
   border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(16px);
 }
 
 .masthead.is-scrolled {

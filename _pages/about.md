@@ -62,7 +62,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 ## Education {#educations}
 
 <div class="edu-entry">
-  <img src="images/edu/bjtu.svg" class="edu-logo" alt="Beijing Jiaotong University">
+  <img src="images/edu/bjtu.svg" class="edu-logo" alt="Beijing Jiaotong University" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2020.09 - 2026.06</em>, Ph.D. in Information and Communication Engineering<br>
     School of Electronic and Information Engineering, <strong>Beijing Jiaotong University</strong> (<font face=STKaiti>北京交通大学</font>)
@@ -70,7 +70,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 </div>
 
 <div class="edu-entry">
-  <img src="images/edu/cupb.png" class="edu-logo-wide" alt="China University of Petroleum (Beijing)">
+  <img src="images/edu/cupb.png" class="edu-logo-wide" alt="China University of Petroleum (Beijing)" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2016.09 - 2020.07</em>, B.E. in Software Engineering<br>
     <strong>China University of Petroleum (Beijing)</strong> (<font face=STKaiti>中国石油大学（北京）</font>) — <strong>GPA rank 1/60</strong><br>
@@ -81,7 +81,7 @@ A full list of my IEEE publications is available on [IEEE Xplore](https://ieeexp
 ## Work Experience {#work-experience}
 
 <div class="edu-entry">
-  <img src="images/edu/mthreads.png" class="edu-logo-wide" alt="Moore Threads">
+  <img src="images/edu/mthreads.png" class="edu-logo-wide" alt="Moore Threads" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2026.06 - Present</em>, <strong>Inference Optimization Engineer</strong><br>
     <strong>Moore Threads</strong> (<font face=STKaiti>摩尔线程</font>)<br>
@@ -175,7 +175,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 ## Internships {#internships}
 
 <div class="edu-entry">
-  <img src="images/intern/xinyan-logo-cand-1.png" class="edu-logo-wide" alt="Xinyan Robotics">
+  <img src="images/intern/xinyan-logo-cand-1.png" class="edu-logo-wide" alt="Xinyan Robotics" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2026.03 - 2026.06</em>, <strong>Robotics Infra Intern</strong><br>
     <strong>Xinyan Robotics</strong> (<font face=STKaiti>心言机器人</font>)<br>
@@ -184,7 +184,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/qc-ai.png" class="edu-logo" alt="Qingcheng Zhiji">
+  <img src="images/intern/qc-ai.png" class="edu-logo" alt="Qingcheng Zhiji" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2025.10 - 2026.01</em>, <strong>AI Infra Intern</strong><br>
     <strong>Qingcheng Zhiji Technology</strong> (<font face=STKaiti>清程极智</font>)<br>
@@ -193,7 +193,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/suat.png" class="edu-logo-wide" alt="Shenzhen University of Advanced Technology">
+  <img src="images/intern/suat.png" class="edu-logo-wide" alt="Shenzhen University of Advanced Technology" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2025.07 - 2025.10</em>, <strong>Research Intern</strong><br>
     <strong>Shenzhen University of Advanced Technology</strong> (<font face=STKaiti>深圳理工大学</font>)<br>
@@ -202,7 +202,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/china-mobile-intl.svg" class="edu-logo-wide" alt="China Mobile">
+  <img src="images/intern/china-mobile-intl.svg" class="edu-logo-wide" alt="China Mobile" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2024.08 - 2025.06</em>, <strong>Algorithm Intern</strong><br>
     <strong>China Mobile Terminal Company</strong> (<font face=STKaiti>中国移动终端公司</font>)<br>
@@ -211,7 +211,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/casic-parent.png" class="edu-logo-wide" alt="China Aerospace Science and Industry Corporation">
+  <img src="images/intern/casic-parent.png" class="edu-logo-wide" alt="China Aerospace Science and Industry Corporation" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2022.10 - 2024.11</em>, <strong>Development Intern</strong><br>
     <strong>Aerospace Remote Sensing Equipment Institute</strong> (<font face=STKaiti>航天遥感设备所</font>)<br>
@@ -220,7 +220,7 @@ kept separate from first-author research artifacts so ownership remains explicit
 </div>
 
 <div class="edu-entry">
-  <img src="images/intern/state-grid-intl.svg" class="edu-logo-wide" alt="State Grid Corporation of China">
+  <img src="images/intern/state-grid-intl.svg" class="edu-logo-wide" alt="State Grid Corporation of China" loading="lazy" decoding="async">
   <div class="edu-text">
     <em>2020.09 - 2021.07</em>, <strong>Development Intern</strong><br>
     <strong>State Grid Information &amp; Telecommunication Group</strong> (<font face=STKaiti>国网信息通信产业集团</font>)<br>
