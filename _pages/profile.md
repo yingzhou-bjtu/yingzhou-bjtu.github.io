@@ -7,7 +7,30 @@ author_profile: true
 type: profile
 ---
 
-# 周瀛（Ying Zhou）
+<div class="page-hero">
+  <div class="page-hero__glow" aria-hidden="true"></div>
+  <h1 class="page-hero__name">周瀛 <span class="page-hero__cn">Ying Zhou</span></h1>
+  <p class="page-hero__tagline">Inference Optimization · Distributed Systems · Open Source</p>
+</div>
+
+<div class="identity-strip" aria-label="Profile at a glance">
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Role</span>
+    <span class="identity-strip__value">Inference Optimization Engineer</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Organization</span>
+    <span class="identity-strip__value">Moore Threads · Beijing</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Research</span>
+    <span class="identity-strip__value">Networks · Federated Learning · AI Infra</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Education</span>
+    <span class="identity-strip__value">BJTU Ph.D. · 2026</span>
+  </div>
+</div>
 
 **周瀛（Ying Zhou）**，北京交通大学信息与通信工程博士，现任摩尔线程推理优化工程师。主要研究方向包括分布式网络、数据中心网络、联邦学习、AI 基础设施与大模型推理优化。
 

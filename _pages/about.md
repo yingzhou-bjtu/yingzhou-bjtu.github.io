@@ -18,6 +18,25 @@ redirect_from:
   <p class="page-hero__tagline">Distributed Networks · AI Infrastructure · Federated Learning</p>
 </div>
 
+<div class="identity-strip" aria-label="Profile at a glance">
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Now</span>
+    <span class="identity-strip__value">Inference Optimization · Moore Threads</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Build</span>
+    <span class="identity-strip__value">MUSA runtime · AI serving · graph-safe execution</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Research</span>
+    <span class="identity-strip__value">Distributed systems · data center networks</span>
+  </div>
+  <div class="identity-strip__item">
+    <span class="identity-strip__label">Base</span>
+    <span class="identity-strip__value">Beijing · BJTU Ph.D. 2026</span>
+  </div>
+</div>
+
 I'm **Ying Zhou** (<font face=STKaiti>周瀛</font>). I am an **Inference Optimization Engineer** at **Moore Threads** (<font face=STKaiti>摩尔线程</font>) and received my Ph.D. in Information and Communication Engineering from **Beijing Jiaotong University** (<font face=STKaiti>北京交通大学</font>) in 2026. I received my bachelor's degree in Software Engineering from **China University of Petroleum (Beijing)** (<font face=STKaiti>中国石油大学（北京）</font>) in 2020, ranking **1/60** in GPA.
 
 My research interests span **distributed networks**, **data center networks**, **federated learning**, and **AI infrastructure** — with a focus on communication-efficient distributed systems, WAN performance modeling, and large-scale network optimization.
