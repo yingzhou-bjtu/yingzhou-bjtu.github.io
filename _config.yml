@@ -6,7 +6,7 @@ baseurl                  : ""
 locale                   : "zh-CN"
 timezone                 : Asia/Shanghai
 lang                     : zh-CN
-og_image                 : "images/avatar.png"
+og_image                 : "images/avatar.webp"
 keywords                 : "周瀛, Ying Zhou, 摩尔线程, Moore Threads, 北京交通大学, 推理优化, AI基础设施, 分布式网络, 数据中心网络, 联邦学习, 大模型推理, 专利"
 repository               : "yingzhou-bjtu/yingzhou-bjtu.github.io"
 google_scholar_stats_use_cdn : false
@@ -24,7 +24,7 @@ baidu_site_verification  :
 # Site Author
 author:
   name             : "周瀛 (Ying Zhou)"
-  avatar           : "images/avatar.png"
+  avatar           : "images/avatar.webp"
   bio              : "Inference Optimization Engineer<br>Moore Threads (摩尔线程)<br>Ph.D., Beijing Jiaotong University<br>B.E., China University of Petroleum (Beijing)"
   location         : "Chaoyang, Beijing, China"
   employer         : "Moore Threads"
